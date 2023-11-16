@@ -1,0 +1,7 @@
+{
+  "package_name": "linkattacher_msgs",
+  "non_idl_tuples": [
+    "/home/swaraj/agribot_ur5/sim_ur5/src/linkattacher_msgs:srv/AttachLink.srv",
+    "/home/swaraj/agribot_ur5/sim_ur5/src/linkattacher_msgs:srv/DetachLink.srv"
+  ]
+}

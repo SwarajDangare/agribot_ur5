@@ -1,0 +1,225 @@
+[0.053s] Invoking command in '/home/swaraj/agribot_ur5/real_ur5/build/ur_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/swaraj/agribot_ur5/real_ur5/src/Universal_Robots_ROS2_Description -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/swaraj/agribot_ur5/real_ur5/install/ur_description
+[0.169s] -- The C compiler identification is GNU 11.4.0
+[0.252s] -- The CXX compiler identification is GNU 11.4.0
+[0.261s] -- Detecting C compiler ABI info
+[0.326s] -- Detecting C compiler ABI info - done
+[0.332s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.333s] -- Detecting C compile features
+[0.333s] -- Detecting C compile features - done
+[0.336s] -- Detecting CXX compiler ABI info
+[0.408s] -- Detecting CXX compiler ABI info - done
+[0.415s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.415s] -- Detecting CXX compile features
+[0.416s] -- Detecting CXX compile features - done
+[0.422s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.576s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.669s] -- Found ament_cmake_pytest: 1.3.5 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[1.381s] -- Configuring done
+[1.384s] -- Generating done
+[1.385s] -- Build files have been written to: /home/swaraj/agribot_ur5/real_ur5/build/ur_description
+[1.391s] Invoked command in '/home/swaraj/agribot_ur5/real_ur5/build/ur_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/swaraj/agribot_ur5/real_ur5/src/Universal_Robots_ROS2_Description -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/swaraj/agribot_ur5/real_ur5/install/ur_description
+[1.393s] Invoking command in '/home/swaraj/agribot_ur5/real_ur5/build/ur_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/swaraj/agribot_ur5/real_ur5/build/ur_description -- -j8 -l8
+[1.427s] Invoked command in '/home/swaraj/agribot_ur5/real_ur5/build/ur_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/swaraj/agribot_ur5/real_ur5/build/ur_description -- -j8 -l8
+[1.455s] Invoking command in '/home/swaraj/agribot_ur5/real_ur5/build/ur_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/swaraj/agribot_ur5/real_ur5/build/ur_description
+[1.461s] -- Install configuration: "Release"
+[1.461s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/config
+[1.461s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/config/ur3
+[1.462s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/config/ur3/visual_parameters.yaml
+[1.462s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/config/ur3/joint_limits.yaml
+[1.462s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/config/ur3/default_kinematics.yaml
+[1.462s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/config/ur3/physical_parameters.yaml
+[1.463s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/config/ur16e
+[1.463s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/config/ur16e/visual_parameters.yaml
+[1.463s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/config/ur16e/joint_limits.yaml
+[1.463s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/config/ur16e/default_kinematics.yaml
+[1.464s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/config/ur16e/physical_parameters.yaml
+[1.464s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/config/ur5
+[1.464s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/config/ur5/visual_parameters.yaml
+[1.464s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/config/ur5/joint_limits.yaml
+[1.464s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/config/ur5/default_kinematics.yaml
+[1.464s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/config/ur5/physical_parameters.yaml
+[1.465s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/config/ur5e
+[1.465s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/config/ur5e/visual_parameters.yaml
+[1.465s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/config/ur5e/joint_limits.yaml
+[1.465s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/config/ur5e/default_kinematics.yaml
+[1.465s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/config/ur5e/physical_parameters.yaml
+[1.466s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/config/ur20
+[1.466s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/config/ur20/visual_parameters.yaml
+[1.466s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/config/ur20/joint_limits.yaml
+[1.467s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/config/ur20/default_kinematics.yaml
+[1.467s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/config/ur20/physical_parameters.yaml
+[1.467s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/config/ur10
+[1.467s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/config/ur10/visual_parameters.yaml
+[1.468s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/config/ur10/joint_limits.yaml
+[1.468s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/config/ur10/default_kinematics.yaml
+[1.468s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/config/ur10/physical_parameters.yaml
+[1.468s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/config/ur10e
+[1.468s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/config/ur10e/visual_parameters.yaml
+[1.469s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/config/ur10e/joint_limits.yaml
+[1.469s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/config/ur10e/default_kinematics.yaml
+[1.469s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/config/ur10e/physical_parameters.yaml
+[1.470s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/config/ur3e
+[1.470s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/config/ur3e/visual_parameters.yaml
+[1.470s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/config/ur3e/joint_limits.yaml
+[1.471s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/config/ur3e/default_kinematics.yaml
+[1.471s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/config/ur3e/physical_parameters.yaml
+[1.471s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/config/initial_positions.yaml
+[1.471s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/launch
+[1.471s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/launch/view_ur.launch.py
+[1.472s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes
+[1.472s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur3
+[1.472s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur3/visual
+[1.472s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur3/visual/wrist3.dae
+[1.473s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur3/visual/wrist2.dae
+[1.476s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur3/visual/wrist1.dae
+[1.478s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur3/visual/upperarm.dae
+[1.482s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur3/visual/shoulder.dae
+[1.486s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur3/visual/forearm.dae
+[1.488s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur3/visual/base.dae
+[1.490s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur3/collision
+[1.490s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur3/collision/shoulder.stl
+[1.491s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur3/collision/wrist1.stl
+[1.492s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur3/collision/upperarm.stl
+[1.494s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur3/collision/wrist2.stl
+[1.495s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur3/collision/base.stl
+[1.497s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur3/collision/wrist3.stl
+[1.497s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur3/collision/forearm.stl
+[1.498s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur16e
+[1.499s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur16e/visual
+[1.499s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur16e/visual/upperarm.dae
+[1.504s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur16e/visual/forearm.dae
+[1.507s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur16e/collision
+[1.507s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur16e/collision/upperarm.stl
+[1.508s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur16e/collision/forearm.stl
+[1.509s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur5
+[1.509s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur5/visual
+[1.509s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur5/visual/wrist3.dae
+[1.510s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur5/visual/wrist2.dae
+[1.512s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur5/visual/wrist1.dae
+[1.514s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur5/visual/upperarm.dae
+[1.517s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur5/visual/shoulder.dae
+[1.519s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur5/visual/forearm.dae
+[1.522s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur5/visual/base.dae
+[1.523s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur5/collision
+[1.523s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur5/collision/shoulder.stl
+[1.523s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur5/collision/wrist1.stl
+[1.524s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur5/collision/upperarm.stl
+[1.524s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur5/collision/wrist2.stl
+[1.525s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur5/collision/base.stl
+[1.525s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur5/collision/wrist3.stl
+[1.525s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur5/collision/forearm.stl
+[1.526s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur5e
+[1.526s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur5e/visual
+[1.526s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist3.dae
+[1.527s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist2.dae
+[1.530s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist1.dae
+[1.533s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur5e/visual/upperarm.dae
+[1.537s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur5e/visual/shoulder.dae
+[1.540s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur5e/visual/forearm.dae
+[1.543s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur5e/visual/base.dae
+[1.544s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur5e/collision
+[1.544s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur5e/collision/shoulder.stl
+[1.545s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist1.stl
+[1.545s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur5e/collision/upperarm.stl
+[1.546s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist2.stl
+[1.546s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur5e/collision/base.stl
+[1.547s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist3.stl
+[1.547s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur5e/collision/forearm.stl
+[1.548s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur20
+[1.548s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur20/visual
+[1.548s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur20/visual/wrist3.dae
+[1.549s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur20/visual/UR20_DIFF_8bit_2K.png
+[1.553s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur20/visual/wrist2.dae
+[1.554s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur20/visual/wrist1.dae
+[1.555s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur20/visual/upperarm.dae
+[1.557s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur20/visual/shoulder.dae
+[1.558s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur20/visual/forearm.dae
+[1.560s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur20/visual/base.dae
+[1.561s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur20/LICENSE.txt
+[1.561s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur20/collision
+[1.561s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur20/collision/shoulder.stl
+[1.562s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur20/collision/wrist1.stl
+[1.562s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur20/collision/upperarm.stl
+[1.563s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur20/collision/wrist2.stl
+[1.563s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur20/collision/base.stl
+[1.563s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur20/collision/wrist3.stl
+[1.564s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur20/collision/forearm.stl
+[1.564s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur10
+[1.564s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur10/visual
+[1.565s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur10/visual/wrist3.dae
+[1.566s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur10/visual/wrist2.dae
+[1.570s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur10/visual/wrist1.dae
+[1.573s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur10/visual/upperarm.dae
+[1.576s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur10/visual/shoulder.dae
+[1.578s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur10/visual/forearm.dae
+[1.582s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur10/visual/base.dae
+[1.583s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur10/collision
+[1.583s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur10/collision/shoulder.stl
+[1.583s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur10/collision/wrist1.stl
+[1.584s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur10/collision/upperarm.stl
+[1.584s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur10/collision/wrist2.stl
+[1.585s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur10/collision/base.stl
+[1.585s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur10/collision/wrist3.stl
+[1.585s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur10/collision/forearm.stl
+[1.586s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur10e
+[1.586s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur10e/visual
+[1.586s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist3.dae
+[1.587s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist2.dae
+[1.589s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist1.dae
+[1.592s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur10e/visual/upperarm.dae
+[1.597s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur10e/visual/shoulder.dae
+[1.601s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur10e/visual/forearm.dae
+[1.603s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur10e/visual/base.dae
+[1.604s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur10e/collision
+[1.604s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur10e/collision/shoulder.stl
+[1.605s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist1.stl
+[1.605s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur10e/collision/upperarm.stl
+[1.606s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist2.stl
+[1.606s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur10e/collision/base.stl
+[1.607s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist3.stl
+[1.607s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur10e/collision/forearm.stl
+[1.607s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur3e
+[1.607s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur3e/visual
+[1.608s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist3.dae
+[1.608s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist2.dae
+[1.611s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist1.dae
+[1.613s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur3e/visual/upperarm.dae
+[1.619s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur3e/visual/shoulder.dae
+[1.623s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur3e/visual/forearm.dae
+[1.625s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur3e/visual/base.dae
+[1.626s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur3e/collision
+[1.626s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur3e/collision/shoulder.stl
+[1.626s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist1.stl
+[1.627s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur3e/collision/upperarm.stl
+[1.627s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist2.stl
+[1.628s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur3e/collision/base.stl
+[1.628s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist3.stl
+[1.629s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/meshes/ur3e/collision/forearm.stl
+[1.629s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/rviz
+[1.629s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/rviz/view_robot.rviz
+[1.629s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/urdf
+[1.630s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/urdf/inc
+[1.630s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/urdf/inc/ur_common.xacro
+[1.630s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/urdf/inc/ur_transmissions.xacro
+[1.630s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/urdf/ur.ros2_control.xacro
+[1.630s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/urdf/ur.urdf.xacro
+[1.631s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/urdf/ur_macro.xacro
+[1.631s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/test
+[1.631s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/test/test_view_ur_launch.py
+[1.631s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/test/test_ur_urdf_xacro.py
+[1.631s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ament_index/resource_index/package_run_dependencies/ur_description
+[1.632s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ament_index/resource_index/parent_prefix_path/ur_description
+[1.632s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/environment/ament_prefix_path.sh
+[1.632s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/environment/ament_prefix_path.dsv
+[1.632s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/environment/path.sh
+[1.632s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/environment/path.dsv
+[1.632s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/local_setup.bash
+[1.633s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/local_setup.sh
+[1.633s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/local_setup.zsh
+[1.633s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/local_setup.dsv
+[1.633s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/package.dsv
+[1.633s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ament_index/resource_index/packages/ur_description
+[1.633s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/cmake/ur_descriptionConfig.cmake
+[1.633s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/cmake/ur_descriptionConfig-version.cmake
+[1.633s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/package.xml
+[1.635s] Invoked command in '/home/swaraj/agribot_ur5/real_ur5/build/ur_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/swaraj/agribot_ur5/real_ur5/build/ur_description

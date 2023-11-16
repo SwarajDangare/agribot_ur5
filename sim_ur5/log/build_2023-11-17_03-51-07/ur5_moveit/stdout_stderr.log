@@ -1,0 +1,56 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/swaraj/agribot_ur5/sim_ur5/build/ur5_moveit
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/ur5_moveit/share/ament_index/resource_index/package_run_dependencies/ur5_moveit
+-- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/ur5_moveit/share/ament_index/resource_index/parent_prefix_path/ur5_moveit
+-- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/ur5_moveit/share/ur5_moveit/environment/ament_prefix_path.sh
+-- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/ur5_moveit/share/ur5_moveit/environment/ament_prefix_path.dsv
+-- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/ur5_moveit/share/ur5_moveit/environment/path.sh
+-- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/ur5_moveit/share/ur5_moveit/environment/path.dsv
+-- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/ur5_moveit/share/ur5_moveit/local_setup.bash
+-- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/ur5_moveit/share/ur5_moveit/local_setup.sh
+-- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/ur5_moveit/share/ur5_moveit/local_setup.zsh
+-- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/ur5_moveit/share/ur5_moveit/local_setup.dsv
+-- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/ur5_moveit/share/ur5_moveit/package.dsv
+-- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/ur5_moveit/share/ament_index/resource_index/packages/ur5_moveit
+-- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/ur5_moveit/share/ur5_moveit/cmake/ur5_moveitConfig.cmake
+-- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/ur5_moveit/share/ur5_moveit/cmake/ur5_moveitConfig-version.cmake
+-- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/ur5_moveit/share/ur5_moveit/package.xml
+-- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/ur5_moveit/share/ur5_moveit/launch/demo.launch.py
+-- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/ur5_moveit/share/ur5_moveit/launch/move_group.launch.py
+-- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/ur5_moveit/share/ur5_moveit/launch/moveit_rviz.launch.py
+-- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/ur5_moveit/share/ur5_moveit/launch/rsp.launch.py
+-- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/ur5_moveit/share/ur5_moveit/launch/setup_assistant.launch.py
+-- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/ur5_moveit/share/ur5_moveit/launch/spawn_controllers.launch.py
+-- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/ur5_moveit/share/ur5_moveit/launch/spawn_ur5_launch_moveit.launch.py
+-- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/ur5_moveit/share/ur5_moveit/launch/static_virtual_joint_tfs.launch.py
+-- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/ur5_moveit/share/ur5_moveit/config/initial_positions.yaml
+-- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/ur5_moveit/share/ur5_moveit/config/joint_limits.yaml
+-- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/ur5_moveit/share/ur5_moveit/config/kinematics.yaml
+-- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/ur5_moveit/share/ur5_moveit/config/moveit.rviz
+-- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/ur5_moveit/share/ur5_moveit/config/moveit_controllers.yaml
+-- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/ur5_moveit/share/ur5_moveit/config/ompl_planning.yaml
+-- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/ur5_moveit/share/ur5_moveit/config/pilz_cartesian_limits.yaml
+-- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/ur5_moveit/share/ur5_moveit/config/ros_controllers.yaml
+-- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/ur5_moveit/share/ur5_moveit/config/ur5.ros2_control.xacro
+-- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/ur5_moveit/share/ur5_moveit/config/ur5.srdf
+-- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/ur5_moveit/share/ur5_moveit/config/ur5.urdf.xacro
+-- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/ur5_moveit/share/ur5_moveit/config/ur_servo.yaml
+-- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/ur5_moveit/share/ur5_moveit/.setup_assistant

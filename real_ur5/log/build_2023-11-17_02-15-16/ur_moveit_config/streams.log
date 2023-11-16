@@ -1,0 +1,76 @@
+[0.052s] Invoking command in '/home/swaraj/agribot_ur5/real_ur5/build/ur_moveit_config': AMENT_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_description:/opt/ros/humble /usr/bin/cmake /home/swaraj/agribot_ur5/real_ur5/src/Universal_Robots_ROS2_Driver/ur_moveit_config -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config
+[0.101s] -- The C compiler identification is GNU 11.4.0
+[0.156s] -- The CXX compiler identification is GNU 11.4.0
+[0.166s] -- Detecting C compiler ABI info
+[0.232s] -- Detecting C compiler ABI info - done
+[0.245s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.245s] -- Detecting C compile features
+[0.246s] -- Detecting C compile features - done
+[0.250s] -- Detecting CXX compiler ABI info
+[0.324s] -- Detecting CXX compiler ABI info - done
+[0.338s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.338s] -- Detecting CXX compile features
+[0.339s] -- Detecting CXX compile features - done
+[0.342s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.501s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.723s] -- Configuring done
+[0.728s] -- Generating done
+[0.729s] -- Build files have been written to: /home/swaraj/agribot_ur5/real_ur5/build/ur_moveit_config
+[0.733s] Invoked command in '/home/swaraj/agribot_ur5/real_ur5/build/ur_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_description:/opt/ros/humble /usr/bin/cmake /home/swaraj/agribot_ur5/real_ur5/src/Universal_Robots_ROS2_Driver/ur_moveit_config -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config
+[0.734s] Invoking command in '/home/swaraj/agribot_ur5/real_ur5/build/ur_moveit_config': AMENT_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_description:/opt/ros/humble /usr/bin/cmake --build /home/swaraj/agribot_ur5/real_ur5/build/ur_moveit_config -- -j8 -l8
+[0.785s] Built target ament_cmake_python_copy_ur_moveit_config
+[1.029s] running egg_info
+[1.029s] creating ur_moveit_config.egg-info
+[1.029s] writing ur_moveit_config.egg-info/PKG-INFO
+[1.029s] writing dependency_links to ur_moveit_config.egg-info/dependency_links.txt
+[1.030s] writing top-level names to ur_moveit_config.egg-info/top_level.txt
+[1.030s] writing manifest file 'ur_moveit_config.egg-info/SOURCES.txt'
+[1.031s] reading manifest file 'ur_moveit_config.egg-info/SOURCES.txt'
+[1.032s] writing manifest file 'ur_moveit_config.egg-info/SOURCES.txt'
+[1.054s] Built target ament_cmake_python_build_ur_moveit_config_egg
+[1.064s] Invoked command in '/home/swaraj/agribot_ur5/real_ur5/build/ur_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_description:/opt/ros/humble /usr/bin/cmake --build /home/swaraj/agribot_ur5/real_ur5/build/ur_moveit_config -- -j8 -l8
+[1.085s] Invoking command in '/home/swaraj/agribot_ur5/real_ur5/build/ur_moveit_config': AMENT_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_description:/opt/ros/humble /usr/bin/cmake --install /home/swaraj/agribot_ur5/real_ur5/build/ur_moveit_config
+[1.093s] -- Install configuration: "Release"
+[1.093s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config/share/ur_moveit_config/config
+[1.094s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config/share/ur_moveit_config/config/ompl_planning.yaml
+[1.094s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config/share/ur_moveit_config/config/ur_servo.yaml
+[1.094s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config/share/ur_moveit_config/config/controllers.yaml
+[1.094s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config/share/ur_moveit_config/config/kinematics.yaml
+[1.095s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config/share/ur_moveit_config/launch
+[1.095s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config/share/ur_moveit_config/launch/ur_moveit.launch.py
+[1.095s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config/share/ur_moveit_config/rviz
+[1.095s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config/share/ur_moveit_config/rviz/view_robot.rviz
+[1.095s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config/share/ur_moveit_config/srdf
+[1.096s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config/share/ur_moveit_config/srdf/ur.srdf.xacro
+[1.096s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config/share/ur_moveit_config/srdf/ur_macro.srdf.xacro
+[1.096s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config/share/ur_moveit_config/environment/pythonpath.sh
+[1.096s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config/share/ur_moveit_config/environment/pythonpath.dsv
+[1.096s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config-2.2.9-py3.10.egg-info
+[1.097s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config-2.2.9-py3.10.egg-info/dependency_links.txt
+[1.097s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config-2.2.9-py3.10.egg-info/SOURCES.txt
+[1.097s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config-2.2.9-py3.10.egg-info/PKG-INFO
+[1.097s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config-2.2.9-py3.10.egg-info/top_level.txt
+[1.097s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config
+[1.097s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config/launch_common.py
+[1.097s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config/__init__.py
+[1.126s] Listing '/home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config'...
+[1.126s] Compiling '/home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config/__init__.py'...
+[1.126s] Compiling '/home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config/launch_common.py'...
+[1.130s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config/local/lib/python3.10/dist-packages/launch_common.py
+[1.157s] Compiling '/home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config/local/lib/python3.10/dist-packages/launch_common.py'...
+[1.161s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config/share/ament_index/resource_index/package_run_dependencies/ur_moveit_config
+[1.161s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config/share/ament_index/resource_index/parent_prefix_path/ur_moveit_config
+[1.161s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config/share/ur_moveit_config/environment/ament_prefix_path.sh
+[1.161s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config/share/ur_moveit_config/environment/ament_prefix_path.dsv
+[1.161s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config/share/ur_moveit_config/environment/path.sh
+[1.161s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config/share/ur_moveit_config/environment/path.dsv
+[1.161s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config/share/ur_moveit_config/local_setup.bash
+[1.161s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config/share/ur_moveit_config/local_setup.sh
+[1.162s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config/share/ur_moveit_config/local_setup.zsh
+[1.162s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config/share/ur_moveit_config/local_setup.dsv
+[1.162s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config/share/ur_moveit_config/package.dsv
+[1.162s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config/share/ament_index/resource_index/packages/ur_moveit_config
+[1.162s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config/share/ur_moveit_config/cmake/ur_moveit_configConfig.cmake
+[1.162s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config/share/ur_moveit_config/cmake/ur_moveit_configConfig-version.cmake
+[1.163s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config/share/ur_moveit_config/package.xml
+[1.164s] Invoked command in '/home/swaraj/agribot_ur5/real_ur5/build/ur_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_description:/opt/ros/humble /usr/bin/cmake --install /home/swaraj/agribot_ur5/real_ur5/build/ur_moveit_config

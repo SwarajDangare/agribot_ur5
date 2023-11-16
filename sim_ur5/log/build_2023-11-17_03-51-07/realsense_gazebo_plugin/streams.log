@@ -1,0 +1,142 @@
+[0.093s] Invoking command in '/home/swaraj/agribot_ur5/sim_ur5/build/realsense_gazebo_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/swaraj/agribot_ur5/sim_ur5/src/realsense_gazebo_plugin -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/swaraj/agribot_ur5/sim_ur5/install/realsense_gazebo_plugin
+[0.152s] -- The C compiler identification is GNU 11.4.0
+[0.220s] -- The CXX compiler identification is GNU 11.4.0
+[0.227s] -- Detecting C compiler ABI info
+[0.304s] -- Detecting C compiler ABI info - done
+[0.311s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.311s] -- Detecting C compile features
+[0.312s] -- Detecting C compile features - done
+[0.316s] -- Detecting CXX compiler ABI info
+[0.402s] -- Detecting CXX compiler ABI info - done
+[0.415s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.415s] -- Detecting CXX compile features
+[0.416s] -- Detecting CXX compile features - done
+[0.420s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.620s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.684s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.728s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[0.797s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.807s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.822s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.847s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.883s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.019s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.024s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.156s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.185s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.241s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.256s] -- Looking for pthread.h
+[1.343s] -- Looking for pthread.h - found
+[1.343s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.421s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.422s] -- Found Threads: TRUE  
+[1.626s] -- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[1.646s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[1.648s] -- Checking for module 'bullet>=2.82'
+[1.667s] --   Found bullet, version 3.05
+[1.793s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[1.858s] -- Found assimp: /usr/include (found version "5.2.0") 
+[1.885s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.920s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[1.937s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.946s] -- Looking for ignition-math6 -- found version 6.15.0
+[1.956s] -- Searching for dependencies of ignition-math6
+[1.958s] -- Looking for OGRE...
+[1.959s] -- OGRE_PREFIX_WATCH changed.
+[1.966s] -- Checking for module 'OGRE'
+[1.988s] --   Found OGRE, version 1.9.0
+[2.034s] -- Found Ogre Ghadamon (1.9.0)
+[2.042s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[2.057s] -- Looking for OGRE_Paging...
+[2.066s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[2.066s] -- Looking for OGRE_Terrain...
+[2.073s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[2.073s] -- Looking for OGRE_Property...
+[2.081s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[2.082s] -- Looking for OGRE_RTShaderSystem...
+[2.089s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[2.089s] -- Looking for OGRE_Volume...
+[2.102s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[2.103s] -- Looking for OGRE_Overlay...
+[2.109s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[2.371s] -- Looking for ignition-math6 -- found version 6.15.0
+[2.375s] -- Looking for ignition-transport8 -- found version 8.2.1
+[2.376s] -- Searching for dependencies of ignition-transport8
+[2.401s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[2.417s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[2.425s] -- Checking for module 'libzmq >= 4'
+[2.461s] --   Found libzmq , version 4.3.4
+[2.510s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[2.517s] -- Checking for module 'uuid'
+[2.536s] --   Found uuid, version 2.37.2
+[2.587s] -- Found UUID: TRUE  
+[2.593s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.593s] -- Searching for dependencies of ignition-msgs5
+[2.624s] -- Looking for ignition-math6 -- found version 6.15.0
+[2.633s] -- Checking for module 'tinyxml2'
+[2.658s] --   Found tinyxml2, version 9.0.0
+[2.769s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.774s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.775s] -- Searching for dependencies of ignition-common3
+[2.776s] -- Looking for dlfcn.h - found
+[2.779s] -- Looking for libdl - found
+[2.781s] -- Found DL: TRUE  
+[2.823s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[2.840s] -- Searching for <ignition-common3> component [graphics]
+[2.844s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[2.845s] -- Searching for dependencies of ignition-common3-graphics
+[2.846s] -- Looking for ignition-math6 -- found version 6.15.0
+[2.851s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[2.852s] -- Searching for dependencies of ignition-fuel_tools4
+[3.063s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[3.075s] -- Checking for module 'jsoncpp'
+[3.098s] --   Found jsoncpp, version 1.9.5
+[3.154s] -- Found JSONCPP: TRUE  
+[3.169s] -- Checking for module 'libzip'
+[3.230s] --   Found libzip, version 1.7.3
+[3.346s] -- Found ZIP: TRUE  
+[3.346s] -- Looking for ignition-common3 -- found version 3.14.0
+[3.347s] -- Looking for ignition-math6 -- found version 6.15.0
+[3.347s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[3.353s] -- Gazebo version: 11.10
+[3.353s] -- Checking for module 'tbb'
+[3.385s] --   Found tbb, version 2021.5.0
+[3.490s] -- Found image_transport: 3.1.7 (/opt/ros/humble/share/image_transport/cmake)
+[3.976s] -- Found camera_info_manager: 3.1.7 (/opt/ros/humble/share/camera_info_manager/cmake)
+[4.207s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.354s] -- Configuring done
+[4.400s] -- Generating done
+[4.405s] -- Build files have been written to: /home/swaraj/agribot_ur5/sim_ur5/build/realsense_gazebo_plugin
+[4.571s] Invoked command in '/home/swaraj/agribot_ur5/sim_ur5/build/realsense_gazebo_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/swaraj/agribot_ur5/sim_ur5/src/realsense_gazebo_plugin -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/swaraj/agribot_ur5/sim_ur5/install/realsense_gazebo_plugin
+[4.574s] Invoking command in '/home/swaraj/agribot_ur5/sim_ur5/build/realsense_gazebo_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/swaraj/agribot_ur5/sim_ur5/build/realsense_gazebo_plugin -- -j8 -l8
+[4.639s] [ 33%] [32mBuilding CXX object CMakeFiles/realsense_gazebo_plugin.dir/src/RealSensePlugin.cpp.o[0m
+[4.640s] [ 66%] [32mBuilding CXX object CMakeFiles/realsense_gazebo_plugin.dir/src/gazebo_ros_realsense.cpp.o[0m
+[35.486s] [100%] [32m[1mLinking CXX shared library librealsense_gazebo_plugin.so[0m
+[36.475s] [100%] Built target realsense_gazebo_plugin
+[36.517s] Invoked command in '/home/swaraj/agribot_ur5/sim_ur5/build/realsense_gazebo_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/swaraj/agribot_ur5/sim_ur5/build/realsense_gazebo_plugin -- -j8 -l8
+[36.551s] Invoking command in '/home/swaraj/agribot_ur5/sim_ur5/build/realsense_gazebo_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/swaraj/agribot_ur5/sim_ur5/build/realsense_gazebo_plugin
+[36.559s] -- Install configuration: ""
+[36.559s] -- Execute custom install script
+[36.560s] -- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/realsense_gazebo_plugin/lib/librealsense_gazebo_plugin.so
+[36.570s] -- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/realsense_gazebo_plugin/include//realsense_gazebo_plugin/RealSensePlugin.h
+[36.580s] -- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/realsense_gazebo_plugin/include//realsense_gazebo_plugin/gazebo_ros_realsense.h
+[36.590s] -- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/environment/library_path.sh
+[36.600s] -- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/environment/library_path.dsv
+[36.610s] -- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/realsense_gazebo_plugin/share/ament_index/resource_index/package_run_dependencies/realsense_gazebo_plugin
+[36.620s] -- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/realsense_gazebo_plugin/share/ament_index/resource_index/parent_prefix_path/realsense_gazebo_plugin
+[36.630s] -- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/environment/ament_prefix_path.sh
+[36.640s] -- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/environment/ament_prefix_path.dsv
+[36.649s] -- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/environment/path.sh
+[36.659s] -- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/environment/path.dsv
+[36.669s] -- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/local_setup.bash
+[36.678s] -- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/local_setup.sh
+[36.688s] -- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/local_setup.zsh
+[36.698s] -- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/local_setup.dsv
+[36.707s] -- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/package.dsv
+[36.717s] -- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/realsense_gazebo_plugin/share/ament_index/resource_index/packages/realsense_gazebo_plugin
+[36.727s] -- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/cmake/ament_cmake_export_include_directories-extras.cmake
+[36.737s] -- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/cmake/ament_cmake_export_libraries-extras.cmake
+[36.747s] -- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/cmake/realsense_gazebo_pluginConfig.cmake
+[36.756s] -- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/cmake/realsense_gazebo_pluginConfig-version.cmake
+[36.766s] -- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/package.xml
+[36.778s] Invoked command in '/home/swaraj/agribot_ur5/sim_ur5/build/realsense_gazebo_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/swaraj/agribot_ur5/sim_ur5/build/realsense_gazebo_plugin

@@ -1,0 +1,62 @@
+[0.098s] Invoking command in '/home/swaraj/agribot_ur5/sim_ur5/build/ur5_moveit': CMAKE_PREFIX_PATH=/home/swaraj/agribot_ur5/sim_ur5/install/ur_description:/home/swaraj/agribot_ur5/sim_ur5/install/ur5_moveit:/home/swaraj/agribot_ur5/sim_ur5/install/realsense_gazebo_plugin:/home/swaraj/agribot_ur5/sim_ur5/install/linkattacher_msgs:/home/swaraj/agribot_ur5/sim_ur5/install/gazebo_ros2_control:/home/swaraj/agribot_ur5/sim_ur5/install/eyantra_warehouse:/home/swaraj/agribot_ur5/real_ur5/install/ur:/home/swaraj/agribot_ur5/real_ur5/install/ur_calibration:/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver:/home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config:/home/swaraj/agribot_ur5/real_ur5/install/ur_bringup:/home/swaraj/agribot_ur5/real_ur5/install/ur_description:/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs:/opt/ros/humble /usr/bin/cmake /home/swaraj/agribot_ur5/sim_ur5/src/ur5_moveit -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/swaraj/agribot_ur5/sim_ur5/install/ur5_moveit
+[0.162s] -- The C compiler identification is GNU 11.4.0
+[0.233s] -- The CXX compiler identification is GNU 11.4.0
+[0.243s] -- Detecting C compiler ABI info
+[0.323s] -- Detecting C compiler ABI info - done
+[0.340s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.340s] -- Detecting C compile features
+[0.341s] -- Detecting C compile features - done
+[0.346s] -- Detecting CXX compiler ABI info
+[0.439s] -- Detecting CXX compiler ABI info - done
+[0.451s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.451s] -- Detecting CXX compile features
+[0.452s] -- Detecting CXX compile features - done
+[0.455s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.692s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.773s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.909s] -- Configuring done
+[0.912s] -- Generating done
+[0.913s] -- Build files have been written to: /home/swaraj/agribot_ur5/sim_ur5/build/ur5_moveit
+[0.918s] Invoked command in '/home/swaraj/agribot_ur5/sim_ur5/build/ur5_moveit' returned '0': CMAKE_PREFIX_PATH=/home/swaraj/agribot_ur5/sim_ur5/install/ur_description:/home/swaraj/agribot_ur5/sim_ur5/install/ur5_moveit:/home/swaraj/agribot_ur5/sim_ur5/install/realsense_gazebo_plugin:/home/swaraj/agribot_ur5/sim_ur5/install/linkattacher_msgs:/home/swaraj/agribot_ur5/sim_ur5/install/gazebo_ros2_control:/home/swaraj/agribot_ur5/sim_ur5/install/eyantra_warehouse:/home/swaraj/agribot_ur5/real_ur5/install/ur:/home/swaraj/agribot_ur5/real_ur5/install/ur_calibration:/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver:/home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config:/home/swaraj/agribot_ur5/real_ur5/install/ur_bringup:/home/swaraj/agribot_ur5/real_ur5/install/ur_description:/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs:/opt/ros/humble /usr/bin/cmake /home/swaraj/agribot_ur5/sim_ur5/src/ur5_moveit -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/swaraj/agribot_ur5/sim_ur5/install/ur5_moveit
+[0.920s] Invoking command in '/home/swaraj/agribot_ur5/sim_ur5/build/ur5_moveit': CMAKE_PREFIX_PATH=/home/swaraj/agribot_ur5/sim_ur5/install/ur_description:/home/swaraj/agribot_ur5/sim_ur5/install/ur5_moveit:/home/swaraj/agribot_ur5/sim_ur5/install/realsense_gazebo_plugin:/home/swaraj/agribot_ur5/sim_ur5/install/linkattacher_msgs:/home/swaraj/agribot_ur5/sim_ur5/install/gazebo_ros2_control:/home/swaraj/agribot_ur5/sim_ur5/install/eyantra_warehouse:/home/swaraj/agribot_ur5/real_ur5/install/ur:/home/swaraj/agribot_ur5/real_ur5/install/ur_calibration:/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver:/home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config:/home/swaraj/agribot_ur5/real_ur5/install/ur_bringup:/home/swaraj/agribot_ur5/real_ur5/install/ur_description:/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs:/opt/ros/humble /usr/bin/cmake --build /home/swaraj/agribot_ur5/sim_ur5/build/ur5_moveit -- -j8 -l8
+[0.978s] Invoked command in '/home/swaraj/agribot_ur5/sim_ur5/build/ur5_moveit' returned '0': CMAKE_PREFIX_PATH=/home/swaraj/agribot_ur5/sim_ur5/install/ur_description:/home/swaraj/agribot_ur5/sim_ur5/install/ur5_moveit:/home/swaraj/agribot_ur5/sim_ur5/install/realsense_gazebo_plugin:/home/swaraj/agribot_ur5/sim_ur5/install/linkattacher_msgs:/home/swaraj/agribot_ur5/sim_ur5/install/gazebo_ros2_control:/home/swaraj/agribot_ur5/sim_ur5/install/eyantra_warehouse:/home/swaraj/agribot_ur5/real_ur5/install/ur:/home/swaraj/agribot_ur5/real_ur5/install/ur_calibration:/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver:/home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config:/home/swaraj/agribot_ur5/real_ur5/install/ur_bringup:/home/swaraj/agribot_ur5/real_ur5/install/ur_description:/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs:/opt/ros/humble /usr/bin/cmake --build /home/swaraj/agribot_ur5/sim_ur5/build/ur5_moveit -- -j8 -l8
+[1.011s] Invoking command in '/home/swaraj/agribot_ur5/sim_ur5/build/ur5_moveit': CMAKE_PREFIX_PATH=/home/swaraj/agribot_ur5/sim_ur5/install/ur_description:/home/swaraj/agribot_ur5/sim_ur5/install/ur5_moveit:/home/swaraj/agribot_ur5/sim_ur5/install/realsense_gazebo_plugin:/home/swaraj/agribot_ur5/sim_ur5/install/linkattacher_msgs:/home/swaraj/agribot_ur5/sim_ur5/install/gazebo_ros2_control:/home/swaraj/agribot_ur5/sim_ur5/install/eyantra_warehouse:/home/swaraj/agribot_ur5/real_ur5/install/ur:/home/swaraj/agribot_ur5/real_ur5/install/ur_calibration:/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver:/home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config:/home/swaraj/agribot_ur5/real_ur5/install/ur_bringup:/home/swaraj/agribot_ur5/real_ur5/install/ur_description:/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs:/opt/ros/humble /usr/bin/cmake --install /home/swaraj/agribot_ur5/sim_ur5/build/ur5_moveit
+[1.020s] -- Install configuration: ""
+[1.021s] -- Execute custom install script
+[1.022s] -- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/ur5_moveit/share/ament_index/resource_index/package_run_dependencies/ur5_moveit
+[1.036s] -- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/ur5_moveit/share/ament_index/resource_index/parent_prefix_path/ur5_moveit
+[1.051s] -- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/ur5_moveit/share/ur5_moveit/environment/ament_prefix_path.sh
+[1.065s] -- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/ur5_moveit/share/ur5_moveit/environment/ament_prefix_path.dsv
+[1.075s] -- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/ur5_moveit/share/ur5_moveit/environment/path.sh
+[1.085s] -- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/ur5_moveit/share/ur5_moveit/environment/path.dsv
+[1.095s] -- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/ur5_moveit/share/ur5_moveit/local_setup.bash
+[1.105s] -- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/ur5_moveit/share/ur5_moveit/local_setup.sh
+[1.118s] -- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/ur5_moveit/share/ur5_moveit/local_setup.zsh
+[1.130s] -- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/ur5_moveit/share/ur5_moveit/local_setup.dsv
+[1.140s] -- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/ur5_moveit/share/ur5_moveit/package.dsv
+[1.153s] -- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/ur5_moveit/share/ament_index/resource_index/packages/ur5_moveit
+[1.170s] -- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/ur5_moveit/share/ur5_moveit/cmake/ur5_moveitConfig.cmake
+[1.183s] -- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/ur5_moveit/share/ur5_moveit/cmake/ur5_moveitConfig-version.cmake
+[1.197s] -- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/ur5_moveit/share/ur5_moveit/package.xml
+[1.212s] -- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/ur5_moveit/share/ur5_moveit/launch/demo.launch.py
+[1.225s] -- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/ur5_moveit/share/ur5_moveit/launch/move_group.launch.py
+[1.244s] -- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/ur5_moveit/share/ur5_moveit/launch/moveit_rviz.launch.py
+[1.261s] -- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/ur5_moveit/share/ur5_moveit/launch/rsp.launch.py
+[1.278s] -- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/ur5_moveit/share/ur5_moveit/launch/setup_assistant.launch.py
+[1.292s] -- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/ur5_moveit/share/ur5_moveit/launch/spawn_controllers.launch.py
+[1.305s] -- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/ur5_moveit/share/ur5_moveit/launch/spawn_ur5_launch_moveit.launch.py
+[1.321s] -- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/ur5_moveit/share/ur5_moveit/launch/static_virtual_joint_tfs.launch.py
+[1.338s] -- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/ur5_moveit/share/ur5_moveit/config/initial_positions.yaml
+[1.354s] -- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/ur5_moveit/share/ur5_moveit/config/joint_limits.yaml
+[1.369s] -- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/ur5_moveit/share/ur5_moveit/config/kinematics.yaml
+[1.382s] -- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/ur5_moveit/share/ur5_moveit/config/moveit.rviz
+[1.395s] -- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/ur5_moveit/share/ur5_moveit/config/moveit_controllers.yaml
+[1.411s] -- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/ur5_moveit/share/ur5_moveit/config/ompl_planning.yaml
+[1.427s] -- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/ur5_moveit/share/ur5_moveit/config/pilz_cartesian_limits.yaml
+[1.442s] -- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/ur5_moveit/share/ur5_moveit/config/ros_controllers.yaml
+[1.455s] -- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/ur5_moveit/share/ur5_moveit/config/ur5.ros2_control.xacro
+[1.467s] -- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/ur5_moveit/share/ur5_moveit/config/ur5.srdf
+[1.477s] -- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/ur5_moveit/share/ur5_moveit/config/ur5.urdf.xacro
+[1.490s] -- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/ur5_moveit/share/ur5_moveit/config/ur_servo.yaml
+[1.504s] -- Symlinking: /home/swaraj/agribot_ur5/sim_ur5/install/ur5_moveit/share/ur5_moveit/.setup_assistant
+[1.518s] Invoked command in '/home/swaraj/agribot_ur5/sim_ur5/build/ur5_moveit' returned '0': CMAKE_PREFIX_PATH=/home/swaraj/agribot_ur5/sim_ur5/install/ur_description:/home/swaraj/agribot_ur5/sim_ur5/install/ur5_moveit:/home/swaraj/agribot_ur5/sim_ur5/install/realsense_gazebo_plugin:/home/swaraj/agribot_ur5/sim_ur5/install/linkattacher_msgs:/home/swaraj/agribot_ur5/sim_ur5/install/gazebo_ros2_control:/home/swaraj/agribot_ur5/sim_ur5/install/eyantra_warehouse:/home/swaraj/agribot_ur5/real_ur5/install/ur:/home/swaraj/agribot_ur5/real_ur5/install/ur_calibration:/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver:/home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config:/home/swaraj/agribot_ur5/real_ur5/install/ur_bringup:/home/swaraj/agribot_ur5/real_ur5/install/ur_description:/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs:/opt/ros/humble /usr/bin/cmake --install /home/swaraj/agribot_ur5/sim_ur5/build/ur5_moveit

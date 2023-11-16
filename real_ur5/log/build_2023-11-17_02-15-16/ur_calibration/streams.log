@@ -1,0 +1,90 @@
+[0.060s] Invoking command in '/home/swaraj/agribot_ur5/real_ur5/build/ur_calibration': AMENT_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver:/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers:/home/swaraj/agribot_ur5/real_ur5/install/ur_description:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver:/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers:/home/swaraj/agribot_ur5/real_ur5/install/ur_description:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/lib:/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/lib:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/bin:${PATH} PYTHONPATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/local/lib/python3.10/dist-packages:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/swaraj/agribot_ur5/real_ur5/src/Universal_Robots_ROS2_Driver/ur_calibration -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/swaraj/agribot_ur5/real_ur5/install/ur_calibration
+[0.108s] -- The C compiler identification is GNU 11.4.0
+[0.157s] -- The CXX compiler identification is GNU 11.4.0
+[0.164s] -- Detecting C compiler ABI info
+[0.226s] -- Detecting C compiler ABI info - done
+[0.233s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.233s] -- Detecting C compile features
+[0.234s] -- Detecting C compile features - done
+[0.236s] -- Detecting CXX compiler ABI info
+[0.307s] -- Detecting CXX compiler ABI info - done
+[0.314s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.314s] -- Detecting CXX compile features
+[0.315s] -- Detecting CXX compile features - done
+[0.319s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.474s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.582s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[0.640s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.645s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.654s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.667s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.687s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.757s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.760s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.872s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.896s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.940s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.950s] -- Looking for pthread.h
+[1.015s] -- Looking for pthread.h - found
+[1.016s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.081s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.082s] -- Found Threads: TRUE  
+[1.239s] -- Found ur_robot_driver: 2.2.9 (/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/cmake)
+[2.941s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.942s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.942s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[5.105s] -- Found ament_cmake_gmock: 1.3.5 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[5.113s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[5.122s] -- Found ament_cmake_gtest: 1.3.5 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[5.124s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[5.188s] -- Configuring done
+[5.305s] -- Generating done
+[5.307s] -- Build files have been written to: /home/swaraj/agribot_ur5/real_ur5/build/ur_calibration
+[5.319s] Invoked command in '/home/swaraj/agribot_ur5/real_ur5/build/ur_calibration' returned '0': AMENT_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver:/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers:/home/swaraj/agribot_ur5/real_ur5/install/ur_description:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver:/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers:/home/swaraj/agribot_ur5/real_ur5/install/ur_description:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/lib:/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/lib:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/bin:${PATH} PYTHONPATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/local/lib/python3.10/dist-packages:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/swaraj/agribot_ur5/real_ur5/src/Universal_Robots_ROS2_Driver/ur_calibration -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/swaraj/agribot_ur5/real_ur5/install/ur_calibration
+[5.320s] Invoking command in '/home/swaraj/agribot_ur5/real_ur5/build/ur_calibration': AMENT_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver:/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers:/home/swaraj/agribot_ur5/real_ur5/install/ur_description:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver:/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers:/home/swaraj/agribot_ur5/real_ur5/install/ur_description:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/lib:/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/lib:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/bin:${PATH} PYTHONPATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/local/lib/python3.10/dist-packages:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/swaraj/agribot_ur5/real_ur5/build/ur_calibration -- -j8 -l8
+[5.368s] [ 16%] [32mBuilding CXX object CMakeFiles/calibration.dir/src/calibration.cpp.o[0m
+[5.368s] [ 16%] [32mBuilding CXX object CMakeFiles/calibration.dir/src/calibration_consumer.cpp.o[0m
+[5.368s] [ 25%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[5.370s] [ 33%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[5.371s] [ 41%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[6.677s] [ 50%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[6.712s] [ 50%] Built target gmock_main
+[11.908s] [ 58%] [32m[1mLinking CXX static library libcalibration.a[0m
+[11.939s] [ 58%] Built target calibration
+[11.960s] [ 66%] [32mBuilding CXX object CMakeFiles/calibration_correction.dir/src/calibration_correction.cpp.o[0m
+[12.363s] [ 75%] [32m[1mLinking CXX static library libgmock.a[0m
+[12.403s] [ 75%] Built target gmock
+[12.424s] [ 83%] [32mBuilding CXX object CMakeFiles/calibration_test.dir/test/calibration_test.cpp.o[0m
+[16.828s] [ 91%] [32m[1mLinking CXX executable calibration_correction[0m
+[17.047s] [ 91%] Built target calibration_correction
+[17.351s] [100%] [32m[1mLinking CXX executable calibration_test[0m
+[17.548s] [100%] Built target calibration_test
+[17.559s] Invoked command in '/home/swaraj/agribot_ur5/real_ur5/build/ur_calibration' returned '0': AMENT_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver:/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers:/home/swaraj/agribot_ur5/real_ur5/install/ur_description:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver:/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers:/home/swaraj/agribot_ur5/real_ur5/install/ur_description:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/lib:/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/lib:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/bin:${PATH} PYTHONPATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/local/lib/python3.10/dist-packages:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/swaraj/agribot_ur5/real_ur5/build/ur_calibration -- -j8 -l8
+[17.592s] Invoking command in '/home/swaraj/agribot_ur5/real_ur5/build/ur_calibration': AMENT_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver:/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers:/home/swaraj/agribot_ur5/real_ur5/install/ur_description:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver:/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers:/home/swaraj/agribot_ur5/real_ur5/install/ur_description:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/lib:/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/lib:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/bin:${PATH} PYTHONPATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/local/lib/python3.10/dist-packages:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/swaraj/agribot_ur5/real_ur5/build/ur_calibration
+[17.599s] -- Install configuration: "Release"
+[17.599s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_calibration/lib/ur_calibration/calibration_correction
+[17.599s] -- Set runtime path of "/home/swaraj/agribot_ur5/real_ur5/install/ur_calibration/lib/ur_calibration/calibration_correction" to ""
+[17.600s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_calibration/include
+[17.600s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_calibration/include/ur_calibration
+[17.600s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_calibration/include/ur_calibration/calibration_consumer.hpp
+[17.600s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_calibration/include/ur_calibration/calibration.hpp
+[17.600s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_calibration/share/ur_calibration/launch
+[17.600s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_calibration/share/ur_calibration/launch/calibration_correction.launch.py
+[17.600s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_calibration/share/ament_index/resource_index/package_run_dependencies/ur_calibration
+[17.601s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_calibration/share/ament_index/resource_index/parent_prefix_path/ur_calibration
+[17.601s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_calibration/share/ur_calibration/environment/ament_prefix_path.sh
+[17.601s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_calibration/share/ur_calibration/environment/ament_prefix_path.dsv
+[17.601s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_calibration/share/ur_calibration/environment/path.sh
+[17.601s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_calibration/share/ur_calibration/environment/path.dsv
+[17.601s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_calibration/share/ur_calibration/local_setup.bash
+[17.602s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_calibration/share/ur_calibration/local_setup.sh
+[17.602s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_calibration/share/ur_calibration/local_setup.zsh
+[17.602s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_calibration/share/ur_calibration/local_setup.dsv
+[17.602s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_calibration/share/ur_calibration/package.dsv
+[17.602s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_calibration/share/ament_index/resource_index/packages/ur_calibration
+[17.602s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_calibration/share/ur_calibration/cmake/ament_cmake_export_include_directories-extras.cmake
+[17.602s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_calibration/share/ur_calibration/cmake/ament_cmake_export_dependencies-extras.cmake
+[17.602s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_calibration/share/ur_calibration/cmake/ur_calibrationConfig.cmake
+[17.603s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_calibration/share/ur_calibration/cmake/ur_calibrationConfig-version.cmake
+[17.603s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_calibration/share/ur_calibration/package.xml
+[17.605s] Invoked command in '/home/swaraj/agribot_ur5/real_ur5/build/ur_calibration' returned '0': AMENT_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver:/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers:/home/swaraj/agribot_ur5/real_ur5/install/ur_description:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver:/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers:/home/swaraj/agribot_ur5/real_ur5/install/ur_description:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/lib:/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/lib:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/bin:${PATH} PYTHONPATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/local/lib/python3.10/dist-packages:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/swaraj/agribot_ur5/real_ur5/build/ur_calibration

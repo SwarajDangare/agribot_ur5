@@ -1,0 +1,4 @@
+Invoking command in '/home/swaraj/agribot_ur5/sim_ur5/build/realsense_gazebo_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/swaraj/agribot_ur5/sim_ur5/build/realsense_gazebo_plugin -- -j8 -l8
+Invoked command in '/home/swaraj/agribot_ur5/sim_ur5/build/realsense_gazebo_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/swaraj/agribot_ur5/sim_ur5/build/realsense_gazebo_plugin -- -j8 -l8
+Invoking command in '/home/swaraj/agribot_ur5/sim_ur5/build/realsense_gazebo_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/swaraj/agribot_ur5/sim_ur5/build/realsense_gazebo_plugin
+Invoked command in '/home/swaraj/agribot_ur5/sim_ur5/build/realsense_gazebo_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/swaraj/agribot_ur5/sim_ur5/build/realsense_gazebo_plugin

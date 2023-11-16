@@ -1,0 +1,93 @@
+[0.052s] Invoking command in '/home/swaraj/agribot_ur5/real_ur5/build/ur_controllers': AMENT_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/swaraj/agribot_ur5/real_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers
+[0.101s] -- The C compiler identification is GNU 11.4.0
+[0.149s] -- The CXX compiler identification is GNU 11.4.0
+[0.156s] -- Detecting C compiler ABI info
+[0.215s] -- Detecting C compiler ABI info - done
+[0.222s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.222s] -- Detecting C compile features
+[0.223s] -- Detecting C compile features - done
+[0.225s] -- Detecting CXX compiler ABI info
+[0.295s] -- Detecting CXX compiler ABI info - done
+[0.302s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.302s] -- Detecting CXX compile features
+[0.303s] -- Detecting CXX compile features - done
+[0.305s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.453s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.538s] -- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+[0.541s] -- Found controller_interface: 2.32.0 (/opt/ros/humble/share/controller_interface/cmake)
+[0.583s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.588s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.596s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.609s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.629s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.369s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.373s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.476s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.502s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.546s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.558s] -- Looking for pthread.h
+[1.626s] -- Looking for pthread.h - found
+[1.626s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.695s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.695s] -- Found Threads: TRUE  
+[1.983s] -- Found joint_trajectory_controller: 2.26.0 (/opt/ros/humble/share/joint_trajectory_controller/cmake)
+[2.186s] -- Found parameter_traits: 0.3.6 (/opt/ros/humble/share/parameter_traits/cmake)
+[2.389s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[2.410s] -- Found ur_dashboard_msgs: 2.2.9 (/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake)
+[2.486s] -- Found ur_msgs: 2.0.0 (/opt/ros/humble/share/ur_msgs/cmake)
+[2.716s] -- Configuring done
+[2.779s] -- Generating done
+[2.781s] -- Build files have been written to: /home/swaraj/agribot_ur5/real_ur5/build/ur_controllers
+[2.791s] Invoked command in '/home/swaraj/agribot_ur5/real_ur5/build/ur_controllers' returned '0': AMENT_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/swaraj/agribot_ur5/real_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers
+[2.793s] Invoking command in '/home/swaraj/agribot_ur5/real_ur5/build/ur_controllers': AMENT_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/swaraj/agribot_ur5/real_ur5/build/ur_controllers -- -j8 -l8
+[2.839s] [ 42%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/swaraj/agribot_ur5/real_ur5/build/ur_controllers/gpio_controller_parameters/include//gpio_controller_parameters.hpp /home/swaraj/agribot_ur5/real_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller_parameters.yaml `[0m
+[2.839s] [ 42%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/swaraj/agribot_ur5/real_ur5/build/ur_controllers/speed_scaling_state_broadcaster_parameters/include//speed_scaling_state_broadcaster_parameters.hpp /home/swaraj/agribot_ur5/real_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/speed_scaling_state_broadcaster_parameters.yaml `[0m
+[2.839s] [ 42%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/swaraj/agribot_ur5/real_ur5/build/ur_controllers/scaled_joint_trajectory_controller_parameters/include//scaled_joint_trajectory_controller_parameters.hpp /home/swaraj/agribot_ur5/real_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers/src/scaled_joint_trajectory_controller_parameters.yaml `[0m
+[2.977s] [ 42%] Built target scaled_joint_trajectory_controller_parameters
+[2.997s] [ 42%] Built target gpio_controller_parameters
+[2.998s] [ 42%] Built target speed_scaling_state_broadcaster_parameters
+[3.017s] [ 85%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/scaled_joint_trajectory_controller.cpp.o[0m
+[3.017s] [ 85%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/gpio_controller.cpp.o[0m
+[3.017s] [ 85%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/speed_scaling_state_broadcaster.cpp.o[0m
+[14.107s] [100%] [32m[1mLinking CXX shared library libur_controllers.so[0m
+[14.378s] [100%] Built target ur_controllers
+[14.388s] Invoked command in '/home/swaraj/agribot_ur5/real_ur5/build/ur_controllers' returned '0': AMENT_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/swaraj/agribot_ur5/real_ur5/build/ur_controllers -- -j8 -l8
+[14.418s] Invoking command in '/home/swaraj/agribot_ur5/real_ur5/build/ur_controllers': AMENT_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/swaraj/agribot_ur5/real_ur5/build/ur_controllers
+[14.424s] -- Install configuration: "Release"
+[14.425s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/include/gpio_controller_parameters
+[14.425s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/include/gpio_controller_parameters/gpio_controller_parameters.hpp
+[14.425s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/include/speed_scaling_state_broadcaster_parameters
+[14.425s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/include/speed_scaling_state_broadcaster_parameters/speed_scaling_state_broadcaster_parameters.hpp
+[14.425s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/include/scaled_joint_trajectory_controller_parameters
+[14.425s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/include/scaled_joint_trajectory_controller_parameters/scaled_joint_trajectory_controller_parameters.hpp
+[14.425s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/share/ur_controllers/controller_plugins.xml
+[14.426s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/lib/libur_controllers.so
+[14.428s] -- Set runtime path of "/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/lib/libur_controllers.so" to ""
+[14.428s] -- Up-to-date: /home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/include
+[14.428s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/include/ur_controllers
+[14.428s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller.hpp
+[14.428s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/include/ur_controllers/gpio_controller.hpp
+[14.428s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster.hpp
+[14.428s] -- Up-to-date: /home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/share/ur_controllers/controller_plugins.xml
+[14.429s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/share/ur_controllers/environment/library_path.sh
+[14.429s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/share/ur_controllers/environment/library_path.dsv
+[14.429s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/share/ament_index/resource_index/package_run_dependencies/ur_controllers
+[14.429s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/share/ament_index/resource_index/parent_prefix_path/ur_controllers
+[14.429s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/share/ur_controllers/environment/ament_prefix_path.sh
+[14.429s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/share/ur_controllers/environment/ament_prefix_path.dsv
+[14.429s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/share/ur_controllers/environment/path.sh
+[14.430s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/share/ur_controllers/environment/path.dsv
+[14.430s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/share/ur_controllers/local_setup.bash
+[14.430s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/share/ur_controllers/local_setup.sh
+[14.430s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/share/ur_controllers/local_setup.zsh
+[14.430s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/share/ur_controllers/local_setup.dsv
+[14.430s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/share/ur_controllers/package.dsv
+[14.431s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/share/ament_index/resource_index/packages/ur_controllers
+[14.431s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/ur_controllers
+[14.431s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_dependencies-extras.cmake
+[14.431s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_include_directories-extras.cmake
+[14.431s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_libraries-extras.cmake
+[14.432s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/share/ur_controllers/cmake/ur_controllersConfig.cmake
+[14.432s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/share/ur_controllers/cmake/ur_controllersConfig-version.cmake
+[14.432s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/share/ur_controllers/package.xml
+[14.434s] Invoked command in '/home/swaraj/agribot_ur5/real_ur5/build/ur_controllers' returned '0': AMENT_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/swaraj/agribot_ur5/real_ur5/build/ur_controllers

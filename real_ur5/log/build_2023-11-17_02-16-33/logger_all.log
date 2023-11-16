@@ -1,0 +1,636 @@
+[1.029s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--cmake-args', '-DCMAKE_BUILD_TYPE=Release']
+[1.029s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=['-DCMAKE_BUILD_TYPE=Release'], cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f6fcfdebbe0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f6fcfdeae60>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f6fcfdeae60>>)
+[1.094s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.094s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.095s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.095s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.095s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.095s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.095s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/swaraj/agribot_ur5/real_ur5'
+[1.095s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.095s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.095s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.095s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.095s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.095s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.095s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.095s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.095s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.105s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.105s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.105s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.105s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.105s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.105s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.105s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.105s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.105s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.105s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.105s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.105s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.106s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.106s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.106s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.106s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.106s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.106s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.106s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.106s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.106s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.106s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.106s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.106s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.106s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.106s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.106s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.106s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extensions ['ignore', 'ignore_ament_install']
+[1.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extension 'ignore'
+[1.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extension 'ignore_ament_install'
+[1.107s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extensions ['colcon_pkg']
+[1.107s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extension 'colcon_pkg'
+[1.107s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extensions ['colcon_meta']
+[1.107s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extension 'colcon_meta'
+[1.107s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extensions ['ros']
+[1.107s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extension 'ros'
+[1.109s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Universal_Robots_ROS2_Description' with type 'ros.ament_cmake' and name 'ur_description'
+[1.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extensions ['ignore', 'ignore_ament_install']
+[1.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extension 'ignore'
+[1.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extension 'ignore_ament_install'
+[1.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extensions ['colcon_pkg']
+[1.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extension 'colcon_pkg'
+[1.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extensions ['colcon_meta']
+[1.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extension 'colcon_meta'
+[1.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extensions ['ros']
+[1.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extension 'ros'
+[1.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extensions ['cmake', 'python']
+[1.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extension 'cmake'
+[1.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extension 'python'
+[1.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extensions ['python_setup_py']
+[1.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extension 'python_setup_py'
+[1.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur) by extensions ['ignore', 'ignore_ament_install']
+[1.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur) by extension 'ignore'
+[1.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur) by extension 'ignore_ament_install'
+[1.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur) by extensions ['colcon_pkg']
+[1.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur) by extension 'colcon_pkg'
+[1.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur) by extensions ['colcon_meta']
+[1.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur) by extension 'colcon_meta'
+[1.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur) by extensions ['ros']
+[1.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur) by extension 'ros'
+[1.111s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Universal_Robots_ROS2_Driver/ur' with type 'ros.ament_cmake' and name 'ur'
+[1.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_bringup) by extensions ['ignore', 'ignore_ament_install']
+[1.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_bringup) by extension 'ignore'
+[1.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_bringup) by extension 'ignore_ament_install'
+[1.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_bringup) by extensions ['colcon_pkg']
+[1.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_bringup) by extension 'colcon_pkg'
+[1.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_bringup) by extensions ['colcon_meta']
+[1.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_bringup) by extension 'colcon_meta'
+[1.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_bringup) by extensions ['ros']
+[1.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_bringup) by extension 'ros'
+[1.112s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Universal_Robots_ROS2_Driver/ur_bringup' with type 'ros.ament_cmake' and name 'ur_bringup'
+[1.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_calibration) by extensions ['ignore', 'ignore_ament_install']
+[1.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_calibration) by extension 'ignore'
+[1.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_calibration) by extension 'ignore_ament_install'
+[1.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_calibration) by extensions ['colcon_pkg']
+[1.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_calibration) by extension 'colcon_pkg'
+[1.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_calibration) by extensions ['colcon_meta']
+[1.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_calibration) by extension 'colcon_meta'
+[1.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_calibration) by extensions ['ros']
+[1.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_calibration) by extension 'ros'
+[1.113s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Universal_Robots_ROS2_Driver/ur_calibration' with type 'ros.ament_cmake' and name 'ur_calibration'
+[1.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_controllers) by extensions ['ignore', 'ignore_ament_install']
+[1.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_controllers) by extension 'ignore'
+[1.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_controllers) by extension 'ignore_ament_install'
+[1.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_controllers) by extensions ['colcon_pkg']
+[1.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_controllers) by extension 'colcon_pkg'
+[1.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_controllers) by extensions ['colcon_meta']
+[1.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_controllers) by extension 'colcon_meta'
+[1.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_controllers) by extensions ['ros']
+[1.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_controllers) by extension 'ros'
+[1.115s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Universal_Robots_ROS2_Driver/ur_controllers' with type 'ros.ament_cmake' and name 'ur_controllers'
+[1.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extension 'ignore'
+[1.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extension 'ignore_ament_install'
+[1.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extensions ['colcon_pkg']
+[1.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extension 'colcon_pkg'
+[1.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extensions ['colcon_meta']
+[1.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extension 'colcon_meta'
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extensions ['ros']
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extension 'ros'
+[1.116s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs' with type 'ros.ament_cmake' and name 'ur_dashboard_msgs'
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extension 'ignore'
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extension 'ignore_ament_install'
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extensions ['colcon_pkg']
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extension 'colcon_pkg'
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extensions ['colcon_meta']
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extension 'colcon_meta'
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extensions ['ros']
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extension 'ros'
+[1.117s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Universal_Robots_ROS2_Driver/ur_moveit_config' with type 'ros.ament_cmake' and name 'ur_moveit_config'
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extensions ['ignore', 'ignore_ament_install']
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extension 'ignore'
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extension 'ignore_ament_install'
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extensions ['colcon_pkg']
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extension 'colcon_pkg'
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extensions ['colcon_meta']
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extension 'colcon_meta'
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extensions ['ros']
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extension 'ros'
+[1.120s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Universal_Robots_ROS2_Driver/ur_robot_driver' with type 'ros.ament_cmake' and name 'ur_robot_driver'
+[1.120s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.120s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.120s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.120s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.120s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.258s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 352 installed packages in /opt/ros/humble
+[1.259s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.359s] Level 5:colcon.colcon_core.verb:set package 'ur_dashboard_msgs' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[1.359s] Level 5:colcon.colcon_core.verb:set package 'ur_dashboard_msgs' build argument 'cmake_target' from command line to 'None'
+[1.360s] Level 5:colcon.colcon_core.verb:set package 'ur_dashboard_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.360s] Level 5:colcon.colcon_core.verb:set package 'ur_dashboard_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.360s] Level 5:colcon.colcon_core.verb:set package 'ur_dashboard_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.360s] Level 5:colcon.colcon_core.verb:set package 'ur_dashboard_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.360s] Level 5:colcon.colcon_core.verb:set package 'ur_dashboard_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.360s] Level 5:colcon.colcon_core.verb:set package 'ur_dashboard_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.360s] Level 5:colcon.colcon_core.verb:set package 'ur_dashboard_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.360s] DEBUG:colcon.colcon_core.verb:Building package 'ur_dashboard_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/swaraj/agribot_ur5/real_ur5/build/ur_dashboard_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs', 'merge_install': False, 'path': '/home/swaraj/agribot_ur5/real_ur5/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs', 'symlink_install': False, 'test_result_base': None}
+[1.375s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[1.375s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_target' from command line to 'None'
+[1.375s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.375s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_clean_cache' from command line to 'False'
+[1.375s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_clean_first' from command line to 'False'
+[1.375s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_force_configure' from command line to 'False'
+[1.375s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'ament_cmake_args' from command line to 'None'
+[1.375s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'catkin_cmake_args' from command line to 'None'
+[1.375s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.375s] DEBUG:colcon.colcon_core.verb:Building package 'ur_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/swaraj/agribot_ur5/real_ur5/build/ur_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/swaraj/agribot_ur5/real_ur5/install/ur_description', 'merge_install': False, 'path': '/home/swaraj/agribot_ur5/real_ur5/src/Universal_Robots_ROS2_Description', 'symlink_install': False, 'test_result_base': None}
+[1.390s] Level 5:colcon.colcon_core.verb:set package 'ur_controllers' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[1.390s] Level 5:colcon.colcon_core.verb:set package 'ur_controllers' build argument 'cmake_target' from command line to 'None'
+[1.390s] Level 5:colcon.colcon_core.verb:set package 'ur_controllers' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.390s] Level 5:colcon.colcon_core.verb:set package 'ur_controllers' build argument 'cmake_clean_cache' from command line to 'False'
+[1.390s] Level 5:colcon.colcon_core.verb:set package 'ur_controllers' build argument 'cmake_clean_first' from command line to 'False'
+[1.390s] Level 5:colcon.colcon_core.verb:set package 'ur_controllers' build argument 'cmake_force_configure' from command line to 'False'
+[1.390s] Level 5:colcon.colcon_core.verb:set package 'ur_controllers' build argument 'ament_cmake_args' from command line to 'None'
+[1.390s] Level 5:colcon.colcon_core.verb:set package 'ur_controllers' build argument 'catkin_cmake_args' from command line to 'None'
+[1.390s] Level 5:colcon.colcon_core.verb:set package 'ur_controllers' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.391s] DEBUG:colcon.colcon_core.verb:Building package 'ur_controllers' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/swaraj/agribot_ur5/real_ur5/build/ur_controllers', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers', 'merge_install': False, 'path': '/home/swaraj/agribot_ur5/real_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers', 'symlink_install': False, 'test_result_base': None}
+[1.406s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[1.406s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'cmake_target' from command line to 'None'
+[1.406s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.406s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'cmake_clean_cache' from command line to 'False'
+[1.406s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'cmake_clean_first' from command line to 'False'
+[1.406s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'cmake_force_configure' from command line to 'False'
+[1.406s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'ament_cmake_args' from command line to 'None'
+[1.406s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'catkin_cmake_args' from command line to 'None'
+[1.406s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.407s] DEBUG:colcon.colcon_core.verb:Building package 'ur_moveit_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/swaraj/agribot_ur5/real_ur5/build/ur_moveit_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config', 'merge_install': False, 'path': '/home/swaraj/agribot_ur5/real_ur5/src/Universal_Robots_ROS2_Driver/ur_moveit_config', 'symlink_install': False, 'test_result_base': None}
+[1.422s] Level 5:colcon.colcon_core.verb:set package 'ur_bringup' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[1.422s] Level 5:colcon.colcon_core.verb:set package 'ur_bringup' build argument 'cmake_target' from command line to 'None'
+[1.422s] Level 5:colcon.colcon_core.verb:set package 'ur_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.422s] Level 5:colcon.colcon_core.verb:set package 'ur_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[1.422s] Level 5:colcon.colcon_core.verb:set package 'ur_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[1.422s] Level 5:colcon.colcon_core.verb:set package 'ur_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[1.422s] Level 5:colcon.colcon_core.verb:set package 'ur_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[1.422s] Level 5:colcon.colcon_core.verb:set package 'ur_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[1.422s] Level 5:colcon.colcon_core.verb:set package 'ur_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.422s] DEBUG:colcon.colcon_core.verb:Building package 'ur_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/swaraj/agribot_ur5/real_ur5/build/ur_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/swaraj/agribot_ur5/real_ur5/install/ur_bringup', 'merge_install': False, 'path': '/home/swaraj/agribot_ur5/real_ur5/src/Universal_Robots_ROS2_Driver/ur_bringup', 'symlink_install': False, 'test_result_base': None}
+[1.437s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[1.437s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'cmake_target' from command line to 'None'
+[1.437s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.437s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[1.437s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'cmake_clean_first' from command line to 'False'
+[1.437s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'cmake_force_configure' from command line to 'False'
+[1.437s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'ament_cmake_args' from command line to 'None'
+[1.437s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[1.437s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.437s] DEBUG:colcon.colcon_core.verb:Building package 'ur_robot_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/swaraj/agribot_ur5/real_ur5/build/ur_robot_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver', 'merge_install': False, 'path': '/home/swaraj/agribot_ur5/real_ur5/src/Universal_Robots_ROS2_Driver/ur_robot_driver', 'symlink_install': False, 'test_result_base': None}
+[1.452s] Level 5:colcon.colcon_core.verb:set package 'ur_calibration' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[1.452s] Level 5:colcon.colcon_core.verb:set package 'ur_calibration' build argument 'cmake_target' from command line to 'None'
+[1.452s] Level 5:colcon.colcon_core.verb:set package 'ur_calibration' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.452s] Level 5:colcon.colcon_core.verb:set package 'ur_calibration' build argument 'cmake_clean_cache' from command line to 'False'
+[1.452s] Level 5:colcon.colcon_core.verb:set package 'ur_calibration' build argument 'cmake_clean_first' from command line to 'False'
+[1.452s] Level 5:colcon.colcon_core.verb:set package 'ur_calibration' build argument 'cmake_force_configure' from command line to 'False'
+[1.452s] Level 5:colcon.colcon_core.verb:set package 'ur_calibration' build argument 'ament_cmake_args' from command line to 'None'
+[1.452s] Level 5:colcon.colcon_core.verb:set package 'ur_calibration' build argument 'catkin_cmake_args' from command line to 'None'
+[1.452s] Level 5:colcon.colcon_core.verb:set package 'ur_calibration' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.452s] DEBUG:colcon.colcon_core.verb:Building package 'ur_calibration' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/swaraj/agribot_ur5/real_ur5/build/ur_calibration', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/swaraj/agribot_ur5/real_ur5/install/ur_calibration', 'merge_install': False, 'path': '/home/swaraj/agribot_ur5/real_ur5/src/Universal_Robots_ROS2_Driver/ur_calibration', 'symlink_install': False, 'test_result_base': None}
+[1.467s] Level 5:colcon.colcon_core.verb:set package 'ur' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[1.467s] Level 5:colcon.colcon_core.verb:set package 'ur' build argument 'cmake_target' from command line to 'None'
+[1.467s] Level 5:colcon.colcon_core.verb:set package 'ur' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.467s] Level 5:colcon.colcon_core.verb:set package 'ur' build argument 'cmake_clean_cache' from command line to 'False'
+[1.467s] Level 5:colcon.colcon_core.verb:set package 'ur' build argument 'cmake_clean_first' from command line to 'False'
+[1.467s] Level 5:colcon.colcon_core.verb:set package 'ur' build argument 'cmake_force_configure' from command line to 'False'
+[1.467s] Level 5:colcon.colcon_core.verb:set package 'ur' build argument 'ament_cmake_args' from command line to 'None'
+[1.467s] Level 5:colcon.colcon_core.verb:set package 'ur' build argument 'catkin_cmake_args' from command line to 'None'
+[1.467s] Level 5:colcon.colcon_core.verb:set package 'ur' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.467s] DEBUG:colcon.colcon_core.verb:Building package 'ur' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/swaraj/agribot_ur5/real_ur5/build/ur', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/swaraj/agribot_ur5/real_ur5/install/ur', 'merge_install': False, 'path': '/home/swaraj/agribot_ur5/real_ur5/src/Universal_Robots_ROS2_Driver/ur', 'symlink_install': False, 'test_result_base': None}
+[1.482s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.496s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.497s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/swaraj/agribot_ur5/real_ur5/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs' with build type 'ament_cmake'
+[1.497s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/swaraj/agribot_ur5/real_ur5/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs'
+[1.521s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.521s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.522s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.554s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/swaraj/agribot_ur5/real_ur5/src/Universal_Robots_ROS2_Description' with build type 'ament_cmake'
+[1.554s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/swaraj/agribot_ur5/real_ur5/src/Universal_Robots_ROS2_Description'
+[1.569s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.569s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.607s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/swaraj/agribot_ur5/real_ur5/build/ur_dashboard_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/swaraj/agribot_ur5/real_ur5/build/ur_dashboard_msgs -- -j8 -l8
+[1.610s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/swaraj/agribot_ur5/real_ur5/build/ur_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/swaraj/agribot_ur5/real_ur5/build/ur_description -- -j8 -l8
+[1.648s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/swaraj/agribot_ur5/real_ur5/build/ur_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/swaraj/agribot_ur5/real_ur5/build/ur_description -- -j8 -l8
+[1.687s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/swaraj/agribot_ur5/real_ur5/build/ur_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/swaraj/agribot_ur5/real_ur5/build/ur_description
+[1.707s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_description)
+[1.737s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/swaraj/agribot_ur5/real_ur5/build/ur_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/swaraj/agribot_ur5/real_ur5/build/ur_description
+[1.749s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_description' for CMake module files
+[1.749s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_description' for CMake config files
+[1.750s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_description', 'cmake_prefix_path')
+[1.768s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/hook/cmake_prefix_path.ps1'
+[1.769s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/hook/cmake_prefix_path.dsv'
+[1.769s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/hook/cmake_prefix_path.sh'
+[1.770s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_description/bin'
+[1.770s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_description/lib/pkgconfig/ur_description.pc'
+[1.770s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_description/lib/python3.10/site-packages'
+[1.770s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_description/bin'
+[1.789s] INFO:colcon.colcon_core.shell:Creating package script '/home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/package.ps1'
+[1.790s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/package.dsv'
+[1.790s] INFO:colcon.colcon_core.shell:Creating package script '/home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/package.sh'
+[1.790s] INFO:colcon.colcon_core.shell:Creating package script '/home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/package.bash'
+[1.791s] INFO:colcon.colcon_core.shell:Creating package script '/home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/package.zsh'
+[1.792s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/colcon-core/packages/ur_description)
+[1.838s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_description)
+[1.856s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_description' for CMake module files
+[1.857s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_description' for CMake config files
+[1.858s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_description', 'cmake_prefix_path')
+[1.872s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/hook/cmake_prefix_path.ps1'
+[1.873s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/hook/cmake_prefix_path.dsv'
+[1.873s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/hook/cmake_prefix_path.sh'
+[1.873s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_description/bin'
+[1.873s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_description/lib/pkgconfig/ur_description.pc'
+[1.874s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_description/lib/python3.10/site-packages'
+[1.874s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_description/bin'
+[1.888s] INFO:colcon.colcon_core.shell:Creating package script '/home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/package.ps1'
+[1.889s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/package.dsv'
+[1.889s] INFO:colcon.colcon_core.shell:Creating package script '/home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/package.sh'
+[1.890s] INFO:colcon.colcon_core.shell:Creating package script '/home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/package.bash'
+[1.890s] INFO:colcon.colcon_core.shell:Creating package script '/home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/ur_description/package.zsh'
+[1.890s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/swaraj/agribot_ur5/real_ur5/install/ur_description/share/colcon-core/packages/ur_description)
+[1.890s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/swaraj/agribot_ur5/real_ur5/src/Universal_Robots_ROS2_Driver/ur_moveit_config' with build type 'ament_cmake'
+[1.891s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/swaraj/agribot_ur5/real_ur5/src/Universal_Robots_ROS2_Driver/ur_moveit_config'
+[1.910s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.910s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.948s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/swaraj/agribot_ur5/real_ur5/build/ur_moveit_config': AMENT_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_description:/opt/ros/humble /usr/bin/cmake --build /home/swaraj/agribot_ur5/real_ur5/build/ur_moveit_config -- -j8 -l8
+[1.995s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/swaraj/agribot_ur5/real_ur5/build/ur_dashboard_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/swaraj/agribot_ur5/real_ur5/build/ur_dashboard_msgs -- -j8 -l8
+[2.279s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/swaraj/agribot_ur5/real_ur5/build/ur_dashboard_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/swaraj/agribot_ur5/real_ur5/build/ur_dashboard_msgs
+[2.331s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/swaraj/agribot_ur5/real_ur5/build/ur_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_description:/opt/ros/humble /usr/bin/cmake --build /home/swaraj/agribot_ur5/real_ur5/build/ur_moveit_config -- -j8 -l8
+[2.351s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_dashboard_msgs)
+[2.357s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/swaraj/agribot_ur5/real_ur5/build/ur_dashboard_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/swaraj/agribot_ur5/real_ur5/build/ur_dashboard_msgs
+[2.373s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs' for CMake module files
+[2.373s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs' for CMake config files
+[2.373s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_dashboard_msgs', 'cmake_prefix_path')
+[2.389s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/cmake_prefix_path.ps1'
+[2.390s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/cmake_prefix_path.dsv'
+[2.390s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/cmake_prefix_path.sh'
+[2.390s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/lib'
+[2.390s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_dashboard_msgs', 'ld_library_path_lib')
+[2.406s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/ld_library_path_lib.ps1'
+[2.406s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/ld_library_path_lib.dsv'
+[2.407s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/ld_library_path_lib.sh'
+[2.407s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/bin'
+[2.407s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/lib/pkgconfig/ur_dashboard_msgs.pc'
+[2.407s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/lib/python3.10/site-packages'
+[2.407s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/bin'
+[2.423s] INFO:colcon.colcon_core.shell:Creating package script '/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.ps1'
+[2.423s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.dsv'
+[2.424s] INFO:colcon.colcon_core.shell:Creating package script '/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.sh'
+[2.424s] INFO:colcon.colcon_core.shell:Creating package script '/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.bash'
+[2.424s] INFO:colcon.colcon_core.shell:Creating package script '/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.zsh'
+[2.425s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/share/colcon-core/packages/ur_dashboard_msgs)
+[2.427s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/swaraj/agribot_ur5/real_ur5/build/ur_moveit_config': AMENT_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_description:/opt/ros/humble /usr/bin/cmake --install /home/swaraj/agribot_ur5/real_ur5/build/ur_moveit_config
+[2.510s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_moveit_config)
+[2.511s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/swaraj/agribot_ur5/real_ur5/build/ur_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_description:/opt/ros/humble /usr/bin/cmake --install /home/swaraj/agribot_ur5/real_ur5/build/ur_moveit_config
+[2.526s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config' for CMake module files
+[2.527s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config' for CMake config files
+[2.527s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_moveit_config', 'cmake_prefix_path')
+[2.542s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config/share/ur_moveit_config/hook/cmake_prefix_path.ps1'
+[2.543s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config/share/ur_moveit_config/hook/cmake_prefix_path.dsv'
+[2.543s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config/share/ur_moveit_config/hook/cmake_prefix_path.sh'
+[2.543s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config/bin'
+[2.543s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config/lib/pkgconfig/ur_moveit_config.pc'
+[2.544s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config/lib/python3.10/site-packages'
+[2.544s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config/bin'
+[2.559s] INFO:colcon.colcon_core.shell:Creating package script '/home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config/share/ur_moveit_config/package.ps1'
+[2.559s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config/share/ur_moveit_config/package.dsv'
+[2.560s] INFO:colcon.colcon_core.shell:Creating package script '/home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config/share/ur_moveit_config/package.sh'
+[2.560s] INFO:colcon.colcon_core.shell:Creating package script '/home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config/share/ur_moveit_config/package.bash'
+[2.560s] INFO:colcon.colcon_core.shell:Creating package script '/home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config/share/ur_moveit_config/package.zsh'
+[2.560s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config/share/colcon-core/packages/ur_moveit_config)
+[2.596s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_moveit_config)
+[2.611s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config' for CMake module files
+[2.611s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config' for CMake config files
+[2.611s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_moveit_config', 'cmake_prefix_path')
+[2.626s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config/share/ur_moveit_config/hook/cmake_prefix_path.ps1'
+[2.627s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config/share/ur_moveit_config/hook/cmake_prefix_path.dsv'
+[2.627s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config/share/ur_moveit_config/hook/cmake_prefix_path.sh'
+[2.627s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config/bin'
+[2.627s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config/lib/pkgconfig/ur_moveit_config.pc'
+[2.628s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config/lib/python3.10/site-packages'
+[2.628s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config/bin'
+[2.643s] INFO:colcon.colcon_core.shell:Creating package script '/home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config/share/ur_moveit_config/package.ps1'
+[2.644s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config/share/ur_moveit_config/package.dsv'
+[2.645s] INFO:colcon.colcon_core.shell:Creating package script '/home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config/share/ur_moveit_config/package.sh'
+[2.645s] INFO:colcon.colcon_core.shell:Creating package script '/home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config/share/ur_moveit_config/package.bash'
+[2.647s] INFO:colcon.colcon_core.shell:Creating package script '/home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config/share/ur_moveit_config/package.zsh'
+[2.648s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config/share/colcon-core/packages/ur_moveit_config)
+[2.733s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_dashboard_msgs)
+[2.748s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs' for CMake module files
+[2.749s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs' for CMake config files
+[2.749s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_dashboard_msgs', 'cmake_prefix_path')
+[2.764s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/cmake_prefix_path.ps1'
+[2.764s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/cmake_prefix_path.dsv'
+[2.765s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/cmake_prefix_path.sh'
+[2.765s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/lib'
+[2.765s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_dashboard_msgs', 'ld_library_path_lib')
+[2.780s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/ld_library_path_lib.ps1'
+[2.780s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/ld_library_path_lib.dsv'
+[2.780s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/ld_library_path_lib.sh'
+[2.781s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/bin'
+[2.781s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/lib/pkgconfig/ur_dashboard_msgs.pc'
+[2.781s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/lib/python3.10/site-packages'
+[2.781s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/bin'
+[2.796s] INFO:colcon.colcon_core.shell:Creating package script '/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.ps1'
+[2.796s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.dsv'
+[2.797s] INFO:colcon.colcon_core.shell:Creating package script '/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.sh'
+[2.797s] INFO:colcon.colcon_core.shell:Creating package script '/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.bash'
+[2.797s] INFO:colcon.colcon_core.shell:Creating package script '/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.zsh'
+[2.798s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/share/colcon-core/packages/ur_dashboard_msgs)
+[2.798s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/swaraj/agribot_ur5/real_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers' with build type 'ament_cmake'
+[2.798s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/swaraj/agribot_ur5/real_ur5/src/Universal_Robots_ROS2_Driver/ur_controllers'
+[2.815s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.815s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.854s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/swaraj/agribot_ur5/real_ur5/build/ur_controllers': AMENT_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/swaraj/agribot_ur5/real_ur5/build/ur_controllers -- -j8 -l8
+[2.948s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/swaraj/agribot_ur5/real_ur5/build/ur_controllers' returned '0': AMENT_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/swaraj/agribot_ur5/real_ur5/build/ur_controllers -- -j8 -l8
+[2.977s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/swaraj/agribot_ur5/real_ur5/build/ur_controllers': AMENT_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/swaraj/agribot_ur5/real_ur5/build/ur_controllers
+[2.987s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_controllers)
+[2.989s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/swaraj/agribot_ur5/real_ur5/build/ur_controllers' returned '0': AMENT_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/swaraj/agribot_ur5/real_ur5/build/ur_controllers
+[3.005s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers' for CMake module files
+[3.005s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers' for CMake config files
+[3.005s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_controllers', 'cmake_prefix_path')
+[3.020s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/share/ur_controllers/hook/cmake_prefix_path.ps1'
+[3.020s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/share/ur_controllers/hook/cmake_prefix_path.dsv'
+[3.021s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/share/ur_controllers/hook/cmake_prefix_path.sh'
+[3.021s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/lib'
+[3.021s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_controllers', 'ld_library_path_lib')
+[3.036s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/share/ur_controllers/hook/ld_library_path_lib.ps1'
+[3.036s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/share/ur_controllers/hook/ld_library_path_lib.dsv'
+[3.037s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/share/ur_controllers/hook/ld_library_path_lib.sh'
+[3.037s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/bin'
+[3.037s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/lib/pkgconfig/ur_controllers.pc'
+[3.037s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/lib/python3.10/site-packages'
+[3.037s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/bin'
+[3.062s] INFO:colcon.colcon_core.shell:Creating package script '/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/share/ur_controllers/package.ps1'
+[3.062s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/share/ur_controllers/package.dsv'
+[3.063s] INFO:colcon.colcon_core.shell:Creating package script '/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/share/ur_controllers/package.sh'
+[3.063s] INFO:colcon.colcon_core.shell:Creating package script '/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/share/ur_controllers/package.bash'
+[3.063s] INFO:colcon.colcon_core.shell:Creating package script '/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/share/ur_controllers/package.zsh'
+[3.063s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/share/colcon-core/packages/ur_controllers)
+[3.106s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_controllers)
+[3.121s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers' for CMake module files
+[3.121s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers' for CMake config files
+[3.122s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_controllers', 'cmake_prefix_path')
+[3.137s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/share/ur_controllers/hook/cmake_prefix_path.ps1'
+[3.137s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/share/ur_controllers/hook/cmake_prefix_path.dsv'
+[3.137s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/share/ur_controllers/hook/cmake_prefix_path.sh'
+[3.138s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/lib'
+[3.138s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_controllers', 'ld_library_path_lib')
+[3.153s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/share/ur_controllers/hook/ld_library_path_lib.ps1'
+[3.153s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/share/ur_controllers/hook/ld_library_path_lib.dsv'
+[3.153s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/share/ur_controllers/hook/ld_library_path_lib.sh'
+[3.154s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/bin'
+[3.154s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/lib/pkgconfig/ur_controllers.pc'
+[3.154s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/lib/python3.10/site-packages'
+[3.154s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/bin'
+[3.169s] INFO:colcon.colcon_core.shell:Creating package script '/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/share/ur_controllers/package.ps1'
+[3.169s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/share/ur_controllers/package.dsv'
+[3.170s] INFO:colcon.colcon_core.shell:Creating package script '/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/share/ur_controllers/package.sh'
+[3.170s] INFO:colcon.colcon_core.shell:Creating package script '/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/share/ur_controllers/package.bash'
+[3.170s] INFO:colcon.colcon_core.shell:Creating package script '/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/share/ur_controllers/package.zsh'
+[3.171s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/share/colcon-core/packages/ur_controllers)
+[3.171s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/swaraj/agribot_ur5/real_ur5/src/Universal_Robots_ROS2_Driver/ur_robot_driver' with build type 'ament_cmake'
+[3.171s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/swaraj/agribot_ur5/real_ur5/src/Universal_Robots_ROS2_Driver/ur_robot_driver'
+[3.186s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.186s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.218s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/swaraj/agribot_ur5/real_ur5/src/Universal_Robots_ROS2_Driver/ur_bringup' with build type 'ament_cmake'
+[3.218s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/swaraj/agribot_ur5/real_ur5/src/Universal_Robots_ROS2_Driver/ur_bringup'
+[3.234s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.234s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.269s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/swaraj/agribot_ur5/real_ur5/build/ur_robot_driver': AMENT_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers:/home/swaraj/agribot_ur5/real_ur5/install/ur_description:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers:/home/swaraj/agribot_ur5/real_ur5/install/ur_description:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/lib:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/swaraj/agribot_ur5/real_ur5/build/ur_robot_driver -- -j8 -l8
+[3.274s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/swaraj/agribot_ur5/real_ur5/build/ur_bringup': AMENT_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers:/home/swaraj/agribot_ur5/real_ur5/install/ur_description:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers:/home/swaraj/agribot_ur5/real_ur5/install/ur_description:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/lib:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/swaraj/agribot_ur5/real_ur5/build/ur_bringup -- -j8 -l8
+[3.313s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/swaraj/agribot_ur5/real_ur5/build/ur_bringup' returned '0': AMENT_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers:/home/swaraj/agribot_ur5/real_ur5/install/ur_description:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers:/home/swaraj/agribot_ur5/real_ur5/install/ur_description:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/lib:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/swaraj/agribot_ur5/real_ur5/build/ur_bringup -- -j8 -l8
+[3.342s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/swaraj/agribot_ur5/real_ur5/build/ur_bringup': AMENT_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers:/home/swaraj/agribot_ur5/real_ur5/install/ur_description:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers:/home/swaraj/agribot_ur5/real_ur5/install/ur_description:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/lib:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/swaraj/agribot_ur5/real_ur5/build/ur_bringup
+[3.353s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_bringup)
+[3.359s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/swaraj/agribot_ur5/real_ur5/build/ur_bringup' returned '0': AMENT_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers:/home/swaraj/agribot_ur5/real_ur5/install/ur_description:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers:/home/swaraj/agribot_ur5/real_ur5/install/ur_description:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/lib:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/swaraj/agribot_ur5/real_ur5/build/ur_bringup
+[3.374s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_bringup' for CMake module files
+[3.374s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_bringup' for CMake config files
+[3.374s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_bringup', 'cmake_prefix_path')
+[3.389s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swaraj/agribot_ur5/real_ur5/install/ur_bringup/share/ur_bringup/hook/cmake_prefix_path.ps1'
+[3.389s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swaraj/agribot_ur5/real_ur5/install/ur_bringup/share/ur_bringup/hook/cmake_prefix_path.dsv'
+[3.389s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swaraj/agribot_ur5/real_ur5/install/ur_bringup/share/ur_bringup/hook/cmake_prefix_path.sh'
+[3.390s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_bringup/lib'
+[3.390s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_bringup/bin'
+[3.390s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_bringup/lib/pkgconfig/ur_bringup.pc'
+[3.390s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_bringup/lib/python3.10/site-packages'
+[3.390s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_bringup/bin'
+[3.405s] INFO:colcon.colcon_core.shell:Creating package script '/home/swaraj/agribot_ur5/real_ur5/install/ur_bringup/share/ur_bringup/package.ps1'
+[3.406s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/swaraj/agribot_ur5/real_ur5/install/ur_bringup/share/ur_bringup/package.dsv'
+[3.406s] INFO:colcon.colcon_core.shell:Creating package script '/home/swaraj/agribot_ur5/real_ur5/install/ur_bringup/share/ur_bringup/package.sh'
+[3.406s] INFO:colcon.colcon_core.shell:Creating package script '/home/swaraj/agribot_ur5/real_ur5/install/ur_bringup/share/ur_bringup/package.bash'
+[3.407s] INFO:colcon.colcon_core.shell:Creating package script '/home/swaraj/agribot_ur5/real_ur5/install/ur_bringup/share/ur_bringup/package.zsh'
+[3.407s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/swaraj/agribot_ur5/real_ur5/install/ur_bringup/share/colcon-core/packages/ur_bringup)
+[3.454s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_bringup)
+[3.480s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_bringup' for CMake module files
+[3.481s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_bringup' for CMake config files
+[3.481s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_bringup', 'cmake_prefix_path')
+[3.496s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swaraj/agribot_ur5/real_ur5/install/ur_bringup/share/ur_bringup/hook/cmake_prefix_path.ps1'
+[3.497s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swaraj/agribot_ur5/real_ur5/install/ur_bringup/share/ur_bringup/hook/cmake_prefix_path.dsv'
+[3.497s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swaraj/agribot_ur5/real_ur5/install/ur_bringup/share/ur_bringup/hook/cmake_prefix_path.sh'
+[3.497s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_bringup/lib'
+[3.497s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_bringup/bin'
+[3.497s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_bringup/lib/pkgconfig/ur_bringup.pc'
+[3.498s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_bringup/lib/python3.10/site-packages'
+[3.498s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_bringup/bin'
+[3.513s] INFO:colcon.colcon_core.shell:Creating package script '/home/swaraj/agribot_ur5/real_ur5/install/ur_bringup/share/ur_bringup/package.ps1'
+[3.513s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/swaraj/agribot_ur5/real_ur5/install/ur_bringup/share/ur_bringup/package.dsv'
+[3.513s] INFO:colcon.colcon_core.shell:Creating package script '/home/swaraj/agribot_ur5/real_ur5/install/ur_bringup/share/ur_bringup/package.sh'
+[3.514s] INFO:colcon.colcon_core.shell:Creating package script '/home/swaraj/agribot_ur5/real_ur5/install/ur_bringup/share/ur_bringup/package.bash'
+[3.514s] INFO:colcon.colcon_core.shell:Creating package script '/home/swaraj/agribot_ur5/real_ur5/install/ur_bringup/share/ur_bringup/package.zsh'
+[3.514s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/swaraj/agribot_ur5/real_ur5/install/ur_bringup/share/colcon-core/packages/ur_bringup)
+[3.670s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/swaraj/agribot_ur5/real_ur5/build/ur_robot_driver' returned '0': AMENT_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers:/home/swaraj/agribot_ur5/real_ur5/install/ur_description:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers:/home/swaraj/agribot_ur5/real_ur5/install/ur_description:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/lib:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/swaraj/agribot_ur5/real_ur5/build/ur_robot_driver -- -j8 -l8
+[3.715s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/swaraj/agribot_ur5/real_ur5/build/ur_robot_driver': AMENT_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers:/home/swaraj/agribot_ur5/real_ur5/install/ur_description:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers:/home/swaraj/agribot_ur5/real_ur5/install/ur_description:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/lib:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/swaraj/agribot_ur5/real_ur5/build/ur_robot_driver
+[3.769s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_robot_driver)
+[3.770s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/swaraj/agribot_ur5/real_ur5/build/ur_robot_driver' returned '0': AMENT_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers:/home/swaraj/agribot_ur5/real_ur5/install/ur_description:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers:/home/swaraj/agribot_ur5/real_ur5/install/ur_description:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/lib:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/swaraj/agribot_ur5/real_ur5/build/ur_robot_driver
+[3.787s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver' for CMake module files
+[3.787s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver' for CMake config files
+[3.787s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_robot_driver', 'cmake_prefix_path')
+[3.805s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/hook/cmake_prefix_path.ps1'
+[3.805s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/hook/cmake_prefix_path.dsv'
+[3.806s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/hook/cmake_prefix_path.sh'
+[3.806s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/lib'
+[3.806s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_robot_driver', 'ld_library_path_lib')
+[3.823s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/hook/ld_library_path_lib.ps1'
+[3.823s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/hook/ld_library_path_lib.dsv'
+[3.824s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/hook/ld_library_path_lib.sh'
+[3.824s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/bin'
+[3.824s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_robot_driver', 'path')
+[3.840s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/hook/path.ps1'
+[3.841s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/hook/path.dsv'
+[3.841s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/hook/path.sh'
+[3.841s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/lib/pkgconfig/ur_robot_driver.pc'
+[3.842s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/lib/python3.10/site-packages'
+[3.842s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/bin'
+[3.842s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_robot_driver', 'pythonscriptspath')
+[3.863s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/hook/pythonscriptspath.ps1'
+[3.864s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/hook/pythonscriptspath.dsv'
+[3.864s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/hook/pythonscriptspath.sh'
+[3.882s] INFO:colcon.colcon_core.shell:Creating package script '/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/package.ps1'
+[3.883s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/package.dsv'
+[3.883s] INFO:colcon.colcon_core.shell:Creating package script '/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/package.sh'
+[3.883s] INFO:colcon.colcon_core.shell:Creating package script '/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/package.bash'
+[3.884s] INFO:colcon.colcon_core.shell:Creating package script '/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/package.zsh'
+[3.884s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/colcon-core/packages/ur_robot_driver)
+[3.947s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_robot_driver)
+[3.962s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver' for CMake module files
+[3.963s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver' for CMake config files
+[3.963s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_robot_driver', 'cmake_prefix_path')
+[3.980s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/hook/cmake_prefix_path.ps1'
+[3.980s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/hook/cmake_prefix_path.dsv'
+[3.981s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/hook/cmake_prefix_path.sh'
+[3.981s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/lib'
+[3.981s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_robot_driver', 'ld_library_path_lib')
+[4.001s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/hook/ld_library_path_lib.ps1'
+[4.001s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/hook/ld_library_path_lib.dsv'
+[4.001s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/hook/ld_library_path_lib.sh'
+[4.002s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/bin'
+[4.002s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_robot_driver', 'path')
+[4.016s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/hook/path.ps1'
+[4.017s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/hook/path.dsv'
+[4.017s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/hook/path.sh'
+[4.017s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/lib/pkgconfig/ur_robot_driver.pc'
+[4.018s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/lib/python3.10/site-packages'
+[4.018s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/bin'
+[4.018s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_robot_driver', 'pythonscriptspath')
+[4.033s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/hook/pythonscriptspath.ps1'
+[4.034s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/hook/pythonscriptspath.dsv'
+[4.034s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/hook/pythonscriptspath.sh'
+[4.050s] INFO:colcon.colcon_core.shell:Creating package script '/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/package.ps1'
+[4.050s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/package.dsv'
+[4.051s] INFO:colcon.colcon_core.shell:Creating package script '/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/package.sh'
+[4.051s] INFO:colcon.colcon_core.shell:Creating package script '/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/package.bash'
+[4.051s] INFO:colcon.colcon_core.shell:Creating package script '/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/package.zsh'
+[4.052s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/colcon-core/packages/ur_robot_driver)
+[4.052s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/swaraj/agribot_ur5/real_ur5/src/Universal_Robots_ROS2_Driver/ur_calibration' with build type 'ament_cmake'
+[4.052s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/swaraj/agribot_ur5/real_ur5/src/Universal_Robots_ROS2_Driver/ur_calibration'
+[4.069s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.069s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.115s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/swaraj/agribot_ur5/real_ur5/build/ur_calibration': AMENT_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver:/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers:/home/swaraj/agribot_ur5/real_ur5/install/ur_description:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver:/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers:/home/swaraj/agribot_ur5/real_ur5/install/ur_description:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/lib:/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/lib:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/bin:${PATH} PYTHONPATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/local/lib/python3.10/dist-packages:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/swaraj/agribot_ur5/real_ur5/build/ur_calibration -- -j8 -l8
+[4.225s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/swaraj/agribot_ur5/real_ur5/build/ur_calibration' returned '0': AMENT_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver:/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers:/home/swaraj/agribot_ur5/real_ur5/install/ur_description:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver:/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers:/home/swaraj/agribot_ur5/real_ur5/install/ur_description:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/lib:/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/lib:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/bin:${PATH} PYTHONPATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/local/lib/python3.10/dist-packages:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/swaraj/agribot_ur5/real_ur5/build/ur_calibration -- -j8 -l8
+[4.259s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/swaraj/agribot_ur5/real_ur5/build/ur_calibration': AMENT_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver:/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers:/home/swaraj/agribot_ur5/real_ur5/install/ur_description:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver:/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers:/home/swaraj/agribot_ur5/real_ur5/install/ur_description:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/lib:/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/lib:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/bin:${PATH} PYTHONPATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/local/lib/python3.10/dist-packages:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/swaraj/agribot_ur5/real_ur5/build/ur_calibration
+[4.269s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_calibration)
+[4.269s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/swaraj/agribot_ur5/real_ur5/build/ur_calibration' returned '0': AMENT_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver:/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers:/home/swaraj/agribot_ur5/real_ur5/install/ur_description:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver:/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers:/home/swaraj/agribot_ur5/real_ur5/install/ur_description:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/lib:/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/lib:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/bin:${PATH} PYTHONPATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/local/lib/python3.10/dist-packages:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/swaraj/agribot_ur5/real_ur5/build/ur_calibration
+[4.286s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_calibration' for CMake module files
+[4.287s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_calibration' for CMake config files
+[4.287s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_calibration', 'cmake_prefix_path')
+[4.301s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swaraj/agribot_ur5/real_ur5/install/ur_calibration/share/ur_calibration/hook/cmake_prefix_path.ps1'
+[4.302s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swaraj/agribot_ur5/real_ur5/install/ur_calibration/share/ur_calibration/hook/cmake_prefix_path.dsv'
+[4.302s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swaraj/agribot_ur5/real_ur5/install/ur_calibration/share/ur_calibration/hook/cmake_prefix_path.sh'
+[4.302s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_calibration/lib'
+[4.302s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_calibration/bin'
+[4.302s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_calibration/lib/pkgconfig/ur_calibration.pc'
+[4.303s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_calibration/lib/python3.10/site-packages'
+[4.303s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_calibration/bin'
+[4.317s] INFO:colcon.colcon_core.shell:Creating package script '/home/swaraj/agribot_ur5/real_ur5/install/ur_calibration/share/ur_calibration/package.ps1'
+[4.318s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/swaraj/agribot_ur5/real_ur5/install/ur_calibration/share/ur_calibration/package.dsv'
+[4.318s] INFO:colcon.colcon_core.shell:Creating package script '/home/swaraj/agribot_ur5/real_ur5/install/ur_calibration/share/ur_calibration/package.sh'
+[4.318s] INFO:colcon.colcon_core.shell:Creating package script '/home/swaraj/agribot_ur5/real_ur5/install/ur_calibration/share/ur_calibration/package.bash'
+[4.318s] INFO:colcon.colcon_core.shell:Creating package script '/home/swaraj/agribot_ur5/real_ur5/install/ur_calibration/share/ur_calibration/package.zsh'
+[4.319s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/swaraj/agribot_ur5/real_ur5/install/ur_calibration/share/colcon-core/packages/ur_calibration)
+[4.367s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_calibration)
+[4.382s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_calibration' for CMake module files
+[4.382s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_calibration' for CMake config files
+[4.382s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_calibration', 'cmake_prefix_path')
+[4.397s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swaraj/agribot_ur5/real_ur5/install/ur_calibration/share/ur_calibration/hook/cmake_prefix_path.ps1'
+[4.398s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swaraj/agribot_ur5/real_ur5/install/ur_calibration/share/ur_calibration/hook/cmake_prefix_path.dsv'
+[4.398s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swaraj/agribot_ur5/real_ur5/install/ur_calibration/share/ur_calibration/hook/cmake_prefix_path.sh'
+[4.398s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_calibration/lib'
+[4.398s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_calibration/bin'
+[4.398s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_calibration/lib/pkgconfig/ur_calibration.pc'
+[4.399s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_calibration/lib/python3.10/site-packages'
+[4.399s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur_calibration/bin'
+[4.413s] INFO:colcon.colcon_core.shell:Creating package script '/home/swaraj/agribot_ur5/real_ur5/install/ur_calibration/share/ur_calibration/package.ps1'
+[4.414s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/swaraj/agribot_ur5/real_ur5/install/ur_calibration/share/ur_calibration/package.dsv'
+[4.414s] INFO:colcon.colcon_core.shell:Creating package script '/home/swaraj/agribot_ur5/real_ur5/install/ur_calibration/share/ur_calibration/package.sh'
+[4.415s] INFO:colcon.colcon_core.shell:Creating package script '/home/swaraj/agribot_ur5/real_ur5/install/ur_calibration/share/ur_calibration/package.bash'
+[4.415s] INFO:colcon.colcon_core.shell:Creating package script '/home/swaraj/agribot_ur5/real_ur5/install/ur_calibration/share/ur_calibration/package.zsh'
+[4.415s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/swaraj/agribot_ur5/real_ur5/install/ur_calibration/share/colcon-core/packages/ur_calibration)
+[4.416s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/swaraj/agribot_ur5/real_ur5/src/Universal_Robots_ROS2_Driver/ur' with build type 'ament_cmake'
+[4.416s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/swaraj/agribot_ur5/real_ur5/src/Universal_Robots_ROS2_Driver/ur'
+[4.432s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.432s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.480s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/swaraj/agribot_ur5/real_ur5/build/ur': AMENT_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_calibration:/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver:/home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config:/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers:/home/swaraj/agribot_ur5/real_ur5/install/ur_description:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_calibration:/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver:/home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config:/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers:/home/swaraj/agribot_ur5/real_ur5/install/ur_description:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/lib:/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/lib:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/bin:${PATH} PYTHONPATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/local/lib/python3.10/dist-packages:/home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config/local/lib/python3.10/dist-packages:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/swaraj/agribot_ur5/real_ur5/build/ur -- -j8 -l8
+[4.514s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/swaraj/agribot_ur5/real_ur5/build/ur' returned '0': AMENT_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_calibration:/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver:/home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config:/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers:/home/swaraj/agribot_ur5/real_ur5/install/ur_description:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_calibration:/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver:/home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config:/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers:/home/swaraj/agribot_ur5/real_ur5/install/ur_description:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/lib:/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/lib:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/bin:${PATH} PYTHONPATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/local/lib/python3.10/dist-packages:/home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config/local/lib/python3.10/dist-packages:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/swaraj/agribot_ur5/real_ur5/build/ur -- -j8 -l8
+[4.534s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/swaraj/agribot_ur5/real_ur5/build/ur': AMENT_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_calibration:/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver:/home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config:/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers:/home/swaraj/agribot_ur5/real_ur5/install/ur_description:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_calibration:/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver:/home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config:/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers:/home/swaraj/agribot_ur5/real_ur5/install/ur_description:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/lib:/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/lib:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/bin:${PATH} PYTHONPATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/local/lib/python3.10/dist-packages:/home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config/local/lib/python3.10/dist-packages:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/swaraj/agribot_ur5/real_ur5/build/ur
+[4.544s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur)
+[4.544s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/swaraj/agribot_ur5/real_ur5/build/ur' returned '0': AMENT_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_calibration:/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver:/home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config:/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers:/home/swaraj/agribot_ur5/real_ur5/install/ur_description:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_calibration:/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver:/home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config:/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers:/home/swaraj/agribot_ur5/real_ur5/install/ur_description:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/lib:/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/lib:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/bin:${PATH} PYTHONPATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/local/lib/python3.10/dist-packages:/home/swaraj/agribot_ur5/real_ur5/install/ur_moveit_config/local/lib/python3.10/dist-packages:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/swaraj/agribot_ur5/real_ur5/build/ur
+[4.559s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur' for CMake module files
+[4.559s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur' for CMake config files
+[4.560s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur', 'cmake_prefix_path')
+[4.574s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swaraj/agribot_ur5/real_ur5/install/ur/share/ur/hook/cmake_prefix_path.ps1'
+[4.575s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swaraj/agribot_ur5/real_ur5/install/ur/share/ur/hook/cmake_prefix_path.dsv'
+[4.575s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swaraj/agribot_ur5/real_ur5/install/ur/share/ur/hook/cmake_prefix_path.sh'
+[4.575s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur/bin'
+[4.575s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur/lib/pkgconfig/ur.pc'
+[4.575s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur/lib/python3.10/site-packages'
+[4.576s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur/bin'
+[4.590s] INFO:colcon.colcon_core.shell:Creating package script '/home/swaraj/agribot_ur5/real_ur5/install/ur/share/ur/package.ps1'
+[4.591s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/swaraj/agribot_ur5/real_ur5/install/ur/share/ur/package.dsv'
+[4.591s] INFO:colcon.colcon_core.shell:Creating package script '/home/swaraj/agribot_ur5/real_ur5/install/ur/share/ur/package.sh'
+[4.591s] INFO:colcon.colcon_core.shell:Creating package script '/home/swaraj/agribot_ur5/real_ur5/install/ur/share/ur/package.bash'
+[4.591s] INFO:colcon.colcon_core.shell:Creating package script '/home/swaraj/agribot_ur5/real_ur5/install/ur/share/ur/package.zsh'
+[4.592s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/swaraj/agribot_ur5/real_ur5/install/ur/share/colcon-core/packages/ur)
+[4.626s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur)
+[4.642s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur' for CMake module files
+[4.642s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur' for CMake config files
+[4.642s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur', 'cmake_prefix_path')
+[4.659s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swaraj/agribot_ur5/real_ur5/install/ur/share/ur/hook/cmake_prefix_path.ps1'
+[4.659s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swaraj/agribot_ur5/real_ur5/install/ur/share/ur/hook/cmake_prefix_path.dsv'
+[4.660s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swaraj/agribot_ur5/real_ur5/install/ur/share/ur/hook/cmake_prefix_path.sh'
+[4.660s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur/bin'
+[4.660s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur/lib/pkgconfig/ur.pc'
+[4.661s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur/lib/python3.10/site-packages'
+[4.661s] Level 1:colcon.colcon_core.environment:checking '/home/swaraj/agribot_ur5/real_ur5/install/ur/bin'
+[4.676s] INFO:colcon.colcon_core.shell:Creating package script '/home/swaraj/agribot_ur5/real_ur5/install/ur/share/ur/package.ps1'
+[4.677s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/swaraj/agribot_ur5/real_ur5/install/ur/share/ur/package.dsv'
+[4.677s] INFO:colcon.colcon_core.shell:Creating package script '/home/swaraj/agribot_ur5/real_ur5/install/ur/share/ur/package.sh'
+[4.677s] INFO:colcon.colcon_core.shell:Creating package script '/home/swaraj/agribot_ur5/real_ur5/install/ur/share/ur/package.bash'
+[4.677s] INFO:colcon.colcon_core.shell:Creating package script '/home/swaraj/agribot_ur5/real_ur5/install/ur/share/ur/package.zsh'
+[4.678s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/swaraj/agribot_ur5/real_ur5/install/ur/share/colcon-core/packages/ur)
+[4.678s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.678s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.678s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.678s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.700s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.700s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.700s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.708s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.723s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/swaraj/agribot_ur5/real_ur5/install/local_setup.ps1'
+[4.724s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/swaraj/agribot_ur5/real_ur5/install/_local_setup_util_ps1.py'
+[4.725s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/swaraj/agribot_ur5/real_ur5/install/setup.ps1'
+[4.741s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/swaraj/agribot_ur5/real_ur5/install/local_setup.sh'
+[4.741s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/swaraj/agribot_ur5/real_ur5/install/_local_setup_util_sh.py'
+[4.742s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/swaraj/agribot_ur5/real_ur5/install/setup.sh'
+[4.758s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/swaraj/agribot_ur5/real_ur5/install/local_setup.bash'
+[4.758s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/swaraj/agribot_ur5/real_ur5/install/setup.bash'
+[4.773s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/swaraj/agribot_ur5/real_ur5/install/local_setup.zsh'
+[4.774s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/swaraj/agribot_ur5/real_ur5/install/setup.zsh'

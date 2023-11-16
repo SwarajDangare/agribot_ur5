@@ -1,0 +1,1 @@
+/home/swaraj/agribot_ur5/sim_ur5/src/ur5_moveit/launch/ur5_rviz_gazebo.launch.py

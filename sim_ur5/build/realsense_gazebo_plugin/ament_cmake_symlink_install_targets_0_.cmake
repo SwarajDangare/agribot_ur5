@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/swaraj/agribot_ur5/sim_ur5/build/realsense_gazebo_plugin/librealsense_gazebo_plugin.so" "TARGETS" "realsense_gazebo_plugin" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

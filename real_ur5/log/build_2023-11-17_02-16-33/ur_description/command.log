@@ -1,0 +1,4 @@
+Invoking command in '/home/swaraj/agribot_ur5/real_ur5/build/ur_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/swaraj/agribot_ur5/real_ur5/build/ur_description -- -j8 -l8
+Invoked command in '/home/swaraj/agribot_ur5/real_ur5/build/ur_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/swaraj/agribot_ur5/real_ur5/build/ur_description -- -j8 -l8
+Invoking command in '/home/swaraj/agribot_ur5/real_ur5/build/ur_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/swaraj/agribot_ur5/real_ur5/build/ur_description
+Invoked command in '/home/swaraj/agribot_ur5/real_ur5/build/ur_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/swaraj/agribot_ur5/real_ur5/build/ur_description
