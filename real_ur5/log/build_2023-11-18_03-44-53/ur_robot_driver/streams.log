@@ -1,0 +1,102 @@
+[0.098s] Invoking command in '/home/swaraj/agribot_ur5/real_ur5/build/ur_robot_driver': AMENT_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers:/home/swaraj/agribot_ur5/real_ur5/install/ur_description:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers:/home/swaraj/agribot_ur5/real_ur5/install/ur_description:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/lib:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/swaraj/agribot_ur5/real_ur5/build/ur_robot_driver -- -j8 -l8
+[0.167s] [ 20%] Built target controller_stopper_node
+[0.169s] [ 20%] Built target ament_cmake_python_copy_ur_robot_driver
+[0.174s] [ 33%] Built target ur_ros2_control_node
+[0.174s] [ 60%] Built target urscript_interface
+[0.174s] [ 73%] Built target dashboard_client
+[0.177s] [100%] Built target ur_robot_driver_plugin
+[0.416s] running egg_info
+[0.416s] writing ur_robot_driver.egg-info/PKG-INFO
+[0.417s] writing dependency_links to ur_robot_driver.egg-info/dependency_links.txt
+[0.417s] writing top-level names to ur_robot_driver.egg-info/top_level.txt
+[0.418s] reading manifest file 'ur_robot_driver.egg-info/SOURCES.txt'
+[0.419s] writing manifest file 'ur_robot_driver.egg-info/SOURCES.txt'
+[0.441s] [100%] Built target ament_cmake_python_build_ur_robot_driver_egg
+[0.454s] Invoked command in '/home/swaraj/agribot_ur5/real_ur5/build/ur_robot_driver' returned '0': AMENT_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers:/home/swaraj/agribot_ur5/real_ur5/install/ur_description:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers:/home/swaraj/agribot_ur5/real_ur5/install/ur_description:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/lib:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/swaraj/agribot_ur5/real_ur5/build/ur_robot_driver -- -j8 -l8
+[0.497s] Invoking command in '/home/swaraj/agribot_ur5/real_ur5/build/ur_robot_driver': AMENT_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers:/home/swaraj/agribot_ur5/real_ur5/install/ur_description:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers:/home/swaraj/agribot_ur5/real_ur5/install/ur_description:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/lib:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/swaraj/agribot_ur5/real_ur5/build/ur_robot_driver
+[0.505s] -- Install configuration: "Release"
+[0.505s] -- Up-to-date: /home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/hardware_interface_plugin.xml
+[0.506s] -- Up-to-date: /home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/lib/ur_robot_driver/dashboard_client
+[0.506s] -- Up-to-date: /home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/lib/ur_robot_driver/ur_ros2_control_node
+[0.507s] -- Up-to-date: /home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/lib/ur_robot_driver/controller_stopper_node
+[0.508s] -- Up-to-date: /home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/lib/ur_robot_driver/urscript_interface
+[0.509s] -- Up-to-date: /home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/lib/libur_robot_driver_plugin.so
+[0.510s] -- Up-to-date: /home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/include
+[0.510s] -- Up-to-date: /home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/include/ur_robot_driver
+[0.510s] -- Up-to-date: /home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/include/ur_robot_driver/hardware_interface.hpp
+[0.510s] -- Up-to-date: /home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/include/ur_robot_driver/dashboard_client_ros.hpp
+[0.510s] -- Up-to-date: /home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/include/ur_robot_driver/controller_stopper.hpp
+[0.510s] -- Up-to-date: /home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/include/ur_robot_driver/urcl_log_handler.hpp
+[0.511s] -- Up-to-date: /home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/environment/library_path.sh
+[0.511s] -- Up-to-date: /home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/environment/library_path.dsv
+[0.511s] -- Up-to-date: /home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/resources
+[0.511s] -- Up-to-date: /home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/resources/externalcontrol-1.0.5.urcap
+[0.511s] -- Up-to-date: /home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/resources/rtde_input_recipe.txt
+[0.511s] -- Up-to-date: /home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/resources/ros_control.urscript
+[0.511s] -- Up-to-date: /home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/resources/rtde_output_recipe.txt
+[0.512s] -- Up-to-date: /home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/resources/rs485-1.0.urcap
+[0.512s] -- Up-to-date: /home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/include
+[0.512s] -- Up-to-date: /home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/include/ur_robot_driver
+[0.512s] -- Up-to-date: /home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/include/ur_robot_driver/hardware_interface.hpp
+[0.512s] -- Up-to-date: /home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/include/ur_robot_driver/dashboard_client_ros.hpp
+[0.512s] -- Up-to-date: /home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/include/ur_robot_driver/controller_stopper.hpp
+[0.512s] -- Up-to-date: /home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/include/ur_robot_driver/urcl_log_handler.hpp
+[0.512s] -- Up-to-date: /home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/environment/pythonpath.sh
+[0.512s] -- Up-to-date: /home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/environment/pythonpath.dsv
+[0.513s] -- Up-to-date: /home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver-2.2.9-py3.10.egg-info
+[0.513s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver-2.2.9-py3.10.egg-info/dependency_links.txt
+[0.513s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver-2.2.9-py3.10.egg-info/SOURCES.txt
+[0.513s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver-2.2.9-py3.10.egg-info/PKG-INFO
+[0.513s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver-2.2.9-py3.10.egg-info/top_level.txt
+[0.513s] -- Up-to-date: /home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver
+[0.513s] -- Up-to-date: /home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver/__init__.py
+[0.538s] Listing '/home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver'...
+[0.541s] -- Up-to-date: /home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/lib/ur_robot_driver/tool_communication.py
+[0.542s] -- Up-to-date: /home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/bin/wait_dashboard_server.sh
+[0.542s] -- Up-to-date: /home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/lib/ur_robot_driver/start_ursim.sh
+[0.542s] -- Up-to-date: /home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/config
+[0.542s] -- Up-to-date: /home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/config/ur10e_update_rate.yaml
+[0.542s] -- Up-to-date: /home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/config/ur5_update_rate.yaml
+[0.543s] -- Up-to-date: /home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/config/ur3_update_rate.yaml
+[0.543s] -- Up-to-date: /home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/config/ur3e_update_rate.yaml
+[0.543s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/config/test_goal_publishers_config.yaml
+[0.543s] -- Up-to-date: /home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/config/test_velocity_goal_publishers_config.yaml
+[0.543s] -- Up-to-date: /home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/config/ur5e_update_rate.yaml
+[0.543s] -- Up-to-date: /home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/config/ur16e_update_rate.yaml
+[0.543s] -- Up-to-date: /home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/config/ur_controllers.yaml
+[0.544s] -- Up-to-date: /home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/config/ur20_update_rate.yaml
+[0.544s] -- Up-to-date: /home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/config/ur10_update_rate.yaml
+[0.544s] -- Up-to-date: /home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/launch
+[0.544s] -- Up-to-date: /home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/launch/ur10e.launch.py
+[0.544s] -- Up-to-date: /home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/launch/test_scaled_joint_trajectory_controller.launch.py
+[0.544s] -- Up-to-date: /home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/launch/ur5e.launch.py
+[0.544s] -- Up-to-date: /home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/launch/ur16e.launch.py
+[0.544s] -- Up-to-date: /home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/launch/ur5.launch.py
+[0.545s] -- Up-to-date: /home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/launch/test_forward_velocity_controller.launch.py
+[0.545s] -- Up-to-date: /home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/launch/ur3.launch.py
+[0.545s] -- Up-to-date: /home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/launch/test_joint_trajectory_controller.launch.py
+[0.545s] -- Up-to-date: /home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/launch/ur20.launch.py
+[0.545s] -- Up-to-date: /home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/launch/ur_control.launch.py
+[0.545s] -- Up-to-date: /home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/launch/ur_dashboard_client.launch.py
+[0.545s] -- Up-to-date: /home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/launch/ur10.launch.py
+[0.546s] -- Up-to-date: /home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/launch/ur3e.launch.py
+[0.546s] -- Up-to-date: /home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ament_index/resource_index/package_run_dependencies/ur_robot_driver
+[0.546s] -- Up-to-date: /home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ament_index/resource_index/parent_prefix_path/ur_robot_driver
+[0.546s] -- Up-to-date: /home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/environment/ament_prefix_path.sh
+[0.546s] -- Up-to-date: /home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/environment/ament_prefix_path.dsv
+[0.546s] -- Up-to-date: /home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/environment/path.sh
+[0.546s] -- Up-to-date: /home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/environment/path.dsv
+[0.546s] -- Up-to-date: /home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/local_setup.bash
+[0.547s] -- Up-to-date: /home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/local_setup.sh
+[0.547s] -- Up-to-date: /home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/local_setup.zsh
+[0.547s] -- Up-to-date: /home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/local_setup.dsv
+[0.547s] -- Installing: /home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/package.dsv
+[0.548s] -- Up-to-date: /home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ament_index/resource_index/packages/ur_robot_driver
+[0.548s] -- Up-to-date: /home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/ur_robot_driver
+[0.548s] -- Up-to-date: /home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.548s] -- Up-to-date: /home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[0.548s] -- Up-to-date: /home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.548s] -- Up-to-date: /home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/cmake/ur_robot_driverConfig.cmake
+[0.548s] -- Up-to-date: /home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/cmake/ur_robot_driverConfig-version.cmake
+[0.548s] -- Up-to-date: /home/swaraj/agribot_ur5/real_ur5/install/ur_robot_driver/share/ur_robot_driver/package.xml
+[0.549s] Invoked command in '/home/swaraj/agribot_ur5/real_ur5/build/ur_robot_driver' returned '0': AMENT_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers:/home/swaraj/agribot_ur5/real_ur5/install/ur_description:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers:/home/swaraj/agribot_ur5/real_ur5/install/ur_description:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_controllers/lib:/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/swaraj/agribot_ur5/real_ur5/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/swaraj/agribot_ur5/real_ur5/build/ur_robot_driver
