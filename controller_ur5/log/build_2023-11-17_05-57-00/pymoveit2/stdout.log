@@ -1,0 +1,72 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/swaraj/agribot_ur5/controller_ur5/build/pymoveit2
+Built target ament_cmake_python_symlink_pymoveit2
+running egg_info
+creating pymoveit2.egg-info
+writing pymoveit2.egg-info/PKG-INFO
+writing dependency_links to pymoveit2.egg-info/dependency_links.txt
+writing top-level names to pymoveit2.egg-info/top_level.txt
+writing manifest file 'pymoveit2.egg-info/SOURCES.txt'
+reading manifest file 'pymoveit2.egg-info/SOURCES.txt'
+writing manifest file 'pymoveit2.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_pymoveit2_egg
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2/share/pymoveit2/environment/pythonpath.sh
+-- Symlinking: /home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2/share/pymoveit2/environment/pythonpath.dsv
+-- Symlinking: /home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2-2.1.0-py3.10.egg-info/PKG-INFO
+-- Symlinking: /home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2-2.1.0-py3.10.egg-info/SOURCES.txt
+-- Symlinking: /home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2-2.1.0-py3.10.egg-info/dependency_links.txt
+-- Symlinking: /home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2-2.1.0-py3.10.egg-info/top_level.txt
+-- Symlinking: /home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2/__init__.py
+-- Symlinking: /home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2/moveit2.py
+-- Symlinking: /home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2/moveit2_servo.py
+-- Symlinking: /home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2/robots/__init__.py
+-- Symlinking: /home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2/robots/kinova.py
+-- Symlinking: /home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2/robots/ur5.py
+-- Symlinking: /home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2/lib/pymoveit2/ex_collision_object.py
+-- Symlinking: /home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2/lib/pymoveit2/ex_joint_goal.py
+-- Symlinking: /home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2/lib/pymoveit2/ex_pose_goal.py
+-- Symlinking: /home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2/lib/pymoveit2/ex_servo.py
+-- Symlinking: /home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2/lib/pymoveit2/assets/box.stl
+-- Symlinking: /home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2/lib/pymoveit2/assets/rack.stl
+-- Symlinking: /home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2/lib/pymoveit2/assets/suzanne.stl
+-- Symlinking: /home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2/share/ament_index/resource_index/package_run_dependencies/pymoveit2
+-- Symlinking: /home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2/share/ament_index/resource_index/parent_prefix_path/pymoveit2
+-- Symlinking: /home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2/share/pymoveit2/environment/ament_prefix_path.sh
+-- Symlinking: /home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2/share/pymoveit2/environment/ament_prefix_path.dsv
+-- Symlinking: /home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2/share/pymoveit2/environment/path.sh
+-- Symlinking: /home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2/share/pymoveit2/environment/path.dsv
+-- Symlinking: /home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2/share/pymoveit2/local_setup.bash
+-- Symlinking: /home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2/share/pymoveit2/local_setup.sh
+-- Symlinking: /home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2/share/pymoveit2/local_setup.zsh
+-- Symlinking: /home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2/share/pymoveit2/local_setup.dsv
+-- Symlinking: /home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2/share/pymoveit2/package.dsv
+-- Symlinking: /home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2/share/ament_index/resource_index/packages/pymoveit2
+-- Symlinking: /home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2/share/pymoveit2/cmake/pymoveit2Config.cmake
+-- Symlinking: /home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2/share/pymoveit2/cmake/pymoveit2Config-version.cmake
+-- Symlinking: /home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2/share/pymoveit2/package.xml
+Listing '/home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2'...
+Compiling '/home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2/__init__.py'...
+Compiling '/home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2/moveit2.py'...
+Compiling '/home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2/moveit2_servo.py'...
+Listing '/home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2/robots'...
+Compiling '/home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2/robots/__init__.py'...
+Compiling '/home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2/robots/kinova.py'...
+Compiling '/home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2/robots/ur5.py'...

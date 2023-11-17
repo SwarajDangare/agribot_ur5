@@ -1,0 +1,78 @@
+[0.050s] Invoking command in '/home/swaraj/agribot_ur5/controller_ur5/build/pymoveit2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/swaraj/agribot_ur5/controller_ur5/src/pymoveit2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2
+[0.195s] -- The C compiler identification is GNU 11.4.0
+[0.341s] -- The CXX compiler identification is GNU 11.4.0
+[0.382s] -- Detecting C compiler ABI info
+[0.540s] -- Detecting C compiler ABI info - done
+[0.552s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.553s] -- Detecting C compile features
+[0.553s] -- Detecting C compile features - done
+[0.561s] -- Detecting CXX compiler ABI info
+[0.637s] -- Detecting CXX compiler ABI info - done
+[0.644s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.644s] -- Detecting CXX compile features
+[0.645s] -- Detecting CXX compile features - done
+[0.657s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.935s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.994s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.153s] -- Configuring done
+[1.156s] -- Generating done
+[1.157s] -- Build files have been written to: /home/swaraj/agribot_ur5/controller_ur5/build/pymoveit2
+[1.161s] Invoked command in '/home/swaraj/agribot_ur5/controller_ur5/build/pymoveit2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/swaraj/agribot_ur5/controller_ur5/src/pymoveit2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2
+[1.163s] Invoking command in '/home/swaraj/agribot_ur5/controller_ur5/build/pymoveit2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/swaraj/agribot_ur5/controller_ur5/build/pymoveit2 -- -j8 -l8
+[1.214s] Built target ament_cmake_python_symlink_pymoveit2
+[1.449s] running egg_info
+[1.450s] creating pymoveit2.egg-info
+[1.450s] writing pymoveit2.egg-info/PKG-INFO
+[1.450s] writing dependency_links to pymoveit2.egg-info/dependency_links.txt
+[1.450s] writing top-level names to pymoveit2.egg-info/top_level.txt
+[1.450s] writing manifest file 'pymoveit2.egg-info/SOURCES.txt'
+[1.452s] reading manifest file 'pymoveit2.egg-info/SOURCES.txt'
+[1.452s] writing manifest file 'pymoveit2.egg-info/SOURCES.txt'
+[1.474s] Built target ament_cmake_python_build_pymoveit2_egg
+[1.484s] Invoked command in '/home/swaraj/agribot_ur5/controller_ur5/build/pymoveit2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/swaraj/agribot_ur5/controller_ur5/build/pymoveit2 -- -j8 -l8
+[1.515s] Invoking command in '/home/swaraj/agribot_ur5/controller_ur5/build/pymoveit2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/swaraj/agribot_ur5/controller_ur5/build/pymoveit2
+[1.523s] -- Install configuration: ""
+[1.523s] -- Execute custom install script
+[1.523s] -- Symlinking: /home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2/share/pymoveit2/environment/pythonpath.sh
+[1.532s] -- Symlinking: /home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2/share/pymoveit2/environment/pythonpath.dsv
+[1.541s] -- Symlinking: /home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2-2.1.0-py3.10.egg-info/PKG-INFO
+[1.549s] -- Symlinking: /home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2-2.1.0-py3.10.egg-info/SOURCES.txt
+[1.558s] -- Symlinking: /home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2-2.1.0-py3.10.egg-info/dependency_links.txt
+[1.566s] -- Symlinking: /home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2-2.1.0-py3.10.egg-info/top_level.txt
+[1.575s] -- Symlinking: /home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2/__init__.py
+[1.583s] -- Symlinking: /home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2/moveit2.py
+[1.592s] -- Symlinking: /home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2/moveit2_servo.py
+[1.600s] -- Symlinking: /home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2/robots/__init__.py
+[1.608s] -- Symlinking: /home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2/robots/kinova.py
+[1.617s] -- Symlinking: /home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2/robots/ur5.py
+[1.625s] -- Symlinking: /home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2/lib/pymoveit2/ex_collision_object.py
+[1.634s] -- Symlinking: /home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2/lib/pymoveit2/ex_joint_goal.py
+[1.643s] -- Symlinking: /home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2/lib/pymoveit2/ex_pose_goal.py
+[1.651s] -- Symlinking: /home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2/lib/pymoveit2/ex_servo.py
+[1.660s] -- Symlinking: /home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2/lib/pymoveit2/assets/box.stl
+[1.668s] -- Symlinking: /home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2/lib/pymoveit2/assets/rack.stl
+[1.677s] -- Symlinking: /home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2/lib/pymoveit2/assets/suzanne.stl
+[1.685s] -- Symlinking: /home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2/share/ament_index/resource_index/package_run_dependencies/pymoveit2
+[1.693s] -- Symlinking: /home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2/share/ament_index/resource_index/parent_prefix_path/pymoveit2
+[1.702s] -- Symlinking: /home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2/share/pymoveit2/environment/ament_prefix_path.sh
+[1.711s] -- Symlinking: /home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2/share/pymoveit2/environment/ament_prefix_path.dsv
+[1.719s] -- Symlinking: /home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2/share/pymoveit2/environment/path.sh
+[1.728s] -- Symlinking: /home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2/share/pymoveit2/environment/path.dsv
+[1.737s] -- Symlinking: /home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2/share/pymoveit2/local_setup.bash
+[1.746s] -- Symlinking: /home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2/share/pymoveit2/local_setup.sh
+[1.755s] -- Symlinking: /home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2/share/pymoveit2/local_setup.zsh
+[1.763s] -- Symlinking: /home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2/share/pymoveit2/local_setup.dsv
+[1.771s] -- Symlinking: /home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2/share/pymoveit2/package.dsv
+[1.780s] -- Symlinking: /home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2/share/ament_index/resource_index/packages/pymoveit2
+[1.788s] -- Symlinking: /home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2/share/pymoveit2/cmake/pymoveit2Config.cmake
+[1.796s] -- Symlinking: /home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2/share/pymoveit2/cmake/pymoveit2Config-version.cmake
+[1.805s] -- Symlinking: /home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2/share/pymoveit2/package.xml
+[1.847s] Listing '/home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2'...
+[1.847s] Compiling '/home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2/__init__.py'...
+[1.847s] Compiling '/home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2/moveit2.py'...
+[1.847s] Compiling '/home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2/moveit2_servo.py'...
+[1.847s] Listing '/home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2/robots'...
+[1.847s] Compiling '/home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2/robots/__init__.py'...
+[1.847s] Compiling '/home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2/robots/kinova.py'...
+[1.847s] Compiling '/home/swaraj/agribot_ur5/controller_ur5/install/pymoveit2/local/lib/python3.10/dist-packages/pymoveit2/robots/ur5.py'...
+[1.853s] Invoked command in '/home/swaraj/agribot_ur5/controller_ur5/build/pymoveit2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/swaraj/agribot_ur5/controller_ur5/build/pymoveit2
